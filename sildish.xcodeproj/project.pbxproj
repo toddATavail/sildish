@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FFE000424D3A0CC00BB89E1 /* sildishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE000324D3A0CC00BB89E1 /* sildishTests.swift */; };
+		5FFE000F24D3A0CC00BB89E1 /* sildishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE000E24D3A0CC00BB89E1 /* sildishUITests.swift */; };
+		5FFEFFEA24D3A0CA00BB89E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFEFFE924D3A0CA00BB89E1 /* AppDelegate.swift */; };
+		5FFEFFEC24D3A0CA00BB89E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFEFFEB24D3A0CA00BB89E1 /* SceneDelegate.swift */; };
+		5FFEFFEF24D3A0CA00BB89E1 /* sildish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FFEFFED24D3A0CA00BB89E1 /* sildish.xcdatamodeld */; };
+		5FFEFFF124D3A0CA00BB89E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF024D3A0CA00BB89E1 /* ContentView.swift */; };
+		5FFEFFF324D3A0CC00BB89E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF224D3A0CC00BB89E1 /* Assets.xcassets */; };
+		5FFEFFF624D3A0CC00BB89E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF524D3A0CC00BB89E1 /* Preview Assets.xcassets */; };
+		5FFEFFF924D3A0CC00BB89E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF724D3A0CC00BB89E1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FFE000024D3A0CC00BB89E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FFEFFDE24D3A0CA00BB89E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FFEFFE524D3A0CA00BB89E1;
+			remoteInfo = sildish;
+		};
+		5FFE000B24D3A0CC00BB89E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FFEFFDE24D3A0CA00BB89E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FFEFFE524D3A0CA00BB89E1;
+			remoteInfo = sildish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FFE000324D3A0CC00BB89E1 /* sildishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sildishTests.swift; sourceTree = "<group>"; };
+		5FFE000524D3A0CC00BB89E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FFE000A24D3A0CC00BB89E1 /* sildishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sildishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FFE000E24D3A0CC00BB89E1 /* sildishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sildishUITests.swift; sourceTree = "<group>"; };
+		5FFE001024D3A0CC00BB89E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FFEFFE624D3A0CA00BB89E1 /* sildish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sildish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FFEFFE924D3A0CA00BB89E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FFEFFEB24D3A0CA00BB89E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FFEFFEE24D3A0CA00BB89E1 /* sildish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sildish.xcdatamodel; sourceTree = "<group>"; };
+		5FFEFFF024D3A0CA00BB89E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FFEFFF224D3A0CC00BB89E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FFEFFF524D3A0CC00BB89E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FFEFFF824D3A0CC00BB89E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FFEFFFA24D3A0CC00BB89E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FFEFFFF24D3A0CC00BB89E1 /* sildishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sildishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FFE000724D3A0CC00BB89E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FFEFFE324D3A0CA00BB89E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FFEFFFC24D3A0CC00BB89E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FFE000224D3A0CC00BB89E1 /* sildishTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FFE000324D3A0CC00BB89E1 /* sildishTests.swift */,
+				5FFE000524D3A0CC00BB89E1 /* Info.plist */,
+			);
+			path = sildishTests;
+			sourceTree = "<group>";
+		};
+		5FFE000D24D3A0CC00BB89E1 /* sildishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FFE000E24D3A0CC00BB89E1 /* sildishUITests.swift */,
+				5FFE001024D3A0CC00BB89E1 /* Info.plist */,
+			);
+			path = sildishUITests;
+			sourceTree = "<group>";
+		};
+		5FFEFFDD24D3A0CA00BB89E1 = {
+			isa = PBXGroup;
+			children = (
+				5FFEFFE824D3A0CA00BB89E1 /* sildish */,
+				5FFE000224D3A0CC00BB89E1 /* sildishTests */,
+				5FFE000D24D3A0CC00BB89E1 /* sildishUITests */,
+				5FFEFFE724D3A0CA00BB89E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FFEFFE724D3A0CA00BB89E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FFEFFE624D3A0CA00BB89E1 /* sildish.app */,
+				5FFEFFFF24D3A0CC00BB89E1 /* sildishTests.xctest */,
+				5FFE000A24D3A0CC00BB89E1 /* sildishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FFEFFE824D3A0CA00BB89E1 /* sildish */ = {
+			isa = PBXGroup;
+			children = (
+				5FFEFFE924D3A0CA00BB89E1 /* AppDelegate.swift */,
+				5FFEFFEB24D3A0CA00BB89E1 /* SceneDelegate.swift */,
+				5FFEFFF024D3A0CA00BB89E1 /* ContentView.swift */,
+				5FFEFFF224D3A0CC00BB89E1 /* Assets.xcassets */,
+				5FFEFFF724D3A0CC00BB89E1 /* LaunchScreen.storyboard */,
+				5FFEFFFA24D3A0CC00BB89E1 /* Info.plist */,
+				5FFEFFED24D3A0CA00BB89E1 /* sildish.xcdatamodeld */,
+				5FFEFFF424D3A0CC00BB89E1 /* Preview Content */,
+			);
+			path = sildish;
+			sourceTree = "<group>";
+		};
+		5FFEFFF424D3A0CC00BB89E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FFEFFF524D3A0CC00BB89E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FFE000924D3A0CC00BB89E1 /* sildishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FFE001924D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildishUITests" */;
+			buildPhases = (
+				5FFE000624D3A0CC00BB89E1 /* Sources */,
+				5FFE000724D3A0CC00BB89E1 /* Frameworks */,
+				5FFE000824D3A0CC00BB89E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FFE000C24D3A0CC00BB89E1 /* PBXTargetDependency */,
+			);
+			name = sildishUITests;
+			productName = sildishUITests;
+			productReference = 5FFE000A24D3A0CC00BB89E1 /* sildishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5FFEFFE524D3A0CA00BB89E1 /* sildish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FFE001324D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildish" */;
+			buildPhases = (
+				5FFEFFE224D3A0CA00BB89E1 /* Sources */,
+				5FFEFFE324D3A0CA00BB89E1 /* Frameworks */,
+				5FFEFFE424D3A0CA00BB89E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sildish;
+			productName = sildish;
+			productReference = 5FFEFFE624D3A0CA00BB89E1 /* sildish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FFEFFFE24D3A0CC00BB89E1 /* sildishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FFE001624D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildishTests" */;
+			buildPhases = (
+				5FFEFFFB24D3A0CC00BB89E1 /* Sources */,
+				5FFEFFFC24D3A0CC00BB89E1 /* Frameworks */,
+				5FFEFFFD24D3A0CC00BB89E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FFE000124D3A0CC00BB89E1 /* PBXTargetDependency */,
+			);
+			name = sildishTests;
+			productName = sildishTests;
+			productReference = 5FFEFFFF24D3A0CC00BB89E1 /* sildishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FFEFFDE24D3A0CA00BB89E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Todd L Smith";
+				TargetAttributes = {
+					5FFE000924D3A0CC00BB89E1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5FFEFFE524D3A0CA00BB89E1;
+					};
+					5FFEFFE524D3A0CA00BB89E1 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					5FFEFFFE24D3A0CC00BB89E1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5FFEFFE524D3A0CA00BB89E1;
+					};
+				};
+			};
+			buildConfigurationList = 5FFEFFE124D3A0CA00BB89E1 /* Build configuration list for PBXProject "sildish" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FFEFFDD24D3A0CA00BB89E1;
+			productRefGroup = 5FFEFFE724D3A0CA00BB89E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FFEFFE524D3A0CA00BB89E1 /* sildish */,
+				5FFEFFFE24D3A0CC00BB89E1 /* sildishTests */,
+				5FFE000924D3A0CC00BB89E1 /* sildishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FFE000824D3A0CC00BB89E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FFEFFE424D3A0CA00BB89E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFEFFF924D3A0CC00BB89E1 /* LaunchScreen.storyboard in Resources */,
+				5FFEFFF624D3A0CC00BB89E1 /* Preview Assets.xcassets in Resources */,
+				5FFEFFF324D3A0CC00BB89E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FFEFFFD24D3A0CC00BB89E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FFE000624D3A0CC00BB89E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFE000F24D3A0CC00BB89E1 /* sildishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FFEFFE224D3A0CA00BB89E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFEFFEF24D3A0CA00BB89E1 /* sildish.xcdatamodeld in Sources */,
+				5FFEFFEA24D3A0CA00BB89E1 /* AppDelegate.swift in Sources */,
+				5FFEFFF124D3A0CA00BB89E1 /* ContentView.swift in Sources */,
+				5FFEFFEC24D3A0CA00BB89E1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FFEFFFB24D3A0CC00BB89E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFE000424D3A0CC00BB89E1 /* sildishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FFE000124D3A0CC00BB89E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FFEFFE524D3A0CA00BB89E1 /* sildish */;
+			targetProxy = 5FFE000024D3A0CC00BB89E1 /* PBXContainerItemProxy */;
+		};
+		5FFE000C24D3A0CC00BB89E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FFEFFE524D3A0CA00BB89E1 /* sildish */;
+			targetProxy = 5FFE000B24D3A0CC00BB89E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FFEFFF724D3A0CC00BB89E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FFEFFF824D3A0CC00BB89E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FFE001124D3A0CC00BB89E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FFE001224D3A0CC00BB89E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FFE001424D3A0CC00BB89E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sildish/Preview Content\"";
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sildish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.elushae.sildish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FFE001524D3A0CC00BB89E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sildish/Preview Content\"";
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sildish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.elushae.sildish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FFE001724D3A0CC00BB89E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				INFOPLIST_FILE = sildishTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.elushae.sildishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sildish.app/sildish";
+			};
+			name = Debug;
+		};
+		5FFE001824D3A0CC00BB89E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				INFOPLIST_FILE = sildishTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.elushae.sildishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sildish.app/sildish";
+			};
+			name = Release;
+		};
+		5FFE001A24D3A0CC00BB89E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				INFOPLIST_FILE = sildishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.elushae.sildishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sildish;
+			};
+			name = Debug;
+		};
+		5FFE001B24D3A0CC00BB89E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				INFOPLIST_FILE = sildishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.elushae.sildishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sildish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FFE001324D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FFE001424D3A0CC00BB89E1 /* Debug */,
+				5FFE001524D3A0CC00BB89E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FFE001624D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FFE001724D3A0CC00BB89E1 /* Debug */,
+				5FFE001824D3A0CC00BB89E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FFE001924D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FFE001A24D3A0CC00BB89E1 /* Debug */,
+				5FFE001B24D3A0CC00BB89E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FFEFFE124D3A0CA00BB89E1 /* Build configuration list for PBXProject "sildish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FFE001124D3A0CC00BB89E1 /* Debug */,
+				5FFE001224D3A0CC00BB89E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FFEFFED24D3A0CA00BB89E1 /* sildish.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FFEFFEE24D3A0CA00BB89E1 /* sildish.xcdatamodel */,
+			);
+			currentVersion = 5FFEFFEE24D3A0CA00BB89E1 /* sildish.xcdatamodel */;
+			path = sildish.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FFEFFDE24D3A0CA00BB89E1 /* Project object */;
+}
