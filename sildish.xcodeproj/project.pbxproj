@@ -3,19 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FFE000424D3A0CC00BB89E1 /* sildishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE000324D3A0CC00BB89E1 /* sildishTests.swift */; };
-		5FFE000F24D3A0CC00BB89E1 /* sildishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE000E24D3A0CC00BB89E1 /* sildishUITests.swift */; };
+		19D938B2743059C599C9262E /* Pods_sildish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EBDB8D2A648C98E5D1311B /* Pods_sildish.framework */; };
+		5F08641D24E0C65700FEFEBC /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F0863FE24E0C65600FEFEBC /* a.mp3 */; };
+		5F08641E24E0C65700FEFEBC /* v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F0863FF24E0C65600FEFEBC /* v.mp3 */; };
+		5F08641F24E0C65700FEFEBC /* w.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640024E0C65600FEFEBC /* w.mp3 */; };
+		5F08642024E0C65700FEFEBC /* b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640124E0C65600FEFEBC /* b.mp3 */; };
+		5F08642124E0C65700FEFEBC /* u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640224E0C65600FEFEBC /* u.mp3 */; };
+		5F08642224E0C65700FEFEBC /* t.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640324E0C65600FEFEBC /* t.mp3 */; };
+		5F08642324E0C65700FEFEBC /* c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640424E0C65600FEFEBC /* c.mp3 */; };
+		5F08642424E0C65700FEFEBC /* p.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640524E0C65600FEFEBC /* p.mp3 */; };
+		5F08642524E0C65700FEFEBC /* g.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640624E0C65600FEFEBC /* g.mp3 */; };
+		5F08642624E0C65700FEFEBC /* f.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640724E0C65600FEFEBC /* f.mp3 */; };
+		5F08642724E0C65700FEFEBC /* th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640824E0C65600FEFEBC /* th.mp3 */; };
+		5F08642824E0C65700FEFEBC /* s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640924E0C65600FEFEBC /* s.mp3 */; };
+		5F08642924E0C65700FEFEBC /* d.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640A24E0C65600FEFEBC /* d.mp3 */; };
+		5F08642A24E0C65700FEFEBC /* e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640B24E0C65600FEFEBC /* e.mp3 */; };
+		5F08642B24E0C65700FEFEBC /* rh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640C24E0C65600FEFEBC /* rh.mp3 */; };
+		5F08642C24E0C65700FEFEBC /* ng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640D24E0C65600FEFEBC /* ng.mp3 */; };
+		5F08642D24E0C65700FEFEBC /* hw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640E24E0C65600FEFEBC /* hw.mp3 */; };
+		5F08642E24E0C65700FEFEBC /* sh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640F24E0C65600FEFEBC /* sh.mp3 */; };
+		5F08642F24E0C65700FEFEBC /* r.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641024E0C65600FEFEBC /* r.mp3 */; };
+		5F08643024E0C65700FEFEBC /* dh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641124E0C65600FEFEBC /* dh.mp3 */; };
+		5F08643124E0C65700FEFEBC /* h.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641224E0C65600FEFEBC /* h.mp3 */; };
+		5F08643224E0C65700FEFEBC /* i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641324E0C65600FEFEBC /* i.mp3 */; };
+		5F08643324E0C65700FEFEBC /* j.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641424E0C65600FEFEBC /* j.mp3 */; };
+		5F08643424E0C65700FEFEBC /* n.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641524E0C65700FEFEBC /* n.mp3 */; };
+		5F08643524E0C65700FEFEBC /* y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641624E0C65700FEFEBC /* y.mp3 */; };
+		5F08643624E0C65700FEFEBC /* o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641724E0C65700FEFEBC /* o.mp3 */; };
+		5F08643724E0C65700FEFEBC /* zh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641824E0C65700FEFEBC /* zh.mp3 */; };
+		5F08643824E0C65700FEFEBC /* m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641924E0C65700FEFEBC /* m.mp3 */; };
+		5F08643924E0C65700FEFEBC /* ch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641A24E0C65700FEFEBC /* ch.mp3 */; };
+		5F08643A24E0C65700FEFEBC /* z.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641B24E0C65700FEFEBC /* z.mp3 */; };
+		5F08643B24E0C65700FEFEBC /* l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641C24E0C65700FEFEBC /* l.mp3 */; };
+		5F08643F24E0DC0400FEFEBC /* PlayIPAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F08643E24E0DC0400FEFEBC /* PlayIPAButton.swift */; };
+		5F08644124E0E8CC00FEFEBC /* Transliteration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F08644024E0E8CC00FEFEBC /* Transliteration.swift */; };
+		5F0F1B1324E2072F00439742 /* TransliterationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F1B1124E206EE00439742 /* TransliterationTests.swift */; };
+		5F1E164F24D3ADFE003816DA /* SoundSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E164E24D3ADFE003816DA /* SoundSystem.swift */; };
+		5F1E165224D49278003816DA /* Sildish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F1E165124D49224003816DA /* Sildish-Regular.ttf */; };
+		5F1E165424D49543003816DA /* PhonemeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E165324D49543003816DA /* PhonemeList.swift */; };
+		5F1E165724D49FDF003816DA /* PhonemeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E165624D49FDF003816DA /* PhonemeDetail.swift */; };
+		5F38D2AD24E37FFB0095DE7A /* TransliteratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D2AC24E37FFB0095DE7A /* TransliteratorView.swift */; };
+		5F38D2AF24E449C50095DE7A /* SelectableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D2AE24E449C50095DE7A /* SelectableText.swift */; };
+		5F929F7E24DF2419007F4989 /* PrefixTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F929F7D24DF2419007F4989 /* PrefixTree.swift */; };
+		5FFE000424D3A0CC00BB89E1 /* PrefixTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE000324D3A0CC00BB89E1 /* PrefixTreeTests.swift */; };
+		5FFE000F24D3A0CC00BB89E1 /* SildishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE000E24D3A0CC00BB89E1 /* SildishUITests.swift */; };
 		5FFEFFEA24D3A0CA00BB89E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFEFFE924D3A0CA00BB89E1 /* AppDelegate.swift */; };
 		5FFEFFEC24D3A0CA00BB89E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFEFFEB24D3A0CA00BB89E1 /* SceneDelegate.swift */; };
 		5FFEFFEF24D3A0CA00BB89E1 /* sildish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FFEFFED24D3A0CA00BB89E1 /* sildish.xcdatamodeld */; };
-		5FFEFFF124D3A0CA00BB89E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF024D3A0CA00BB89E1 /* ContentView.swift */; };
+		5FFEFFF124D3A0CA00BB89E1 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF024D3A0CA00BB89E1 /* ToolsView.swift */; };
 		5FFEFFF324D3A0CC00BB89E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF224D3A0CC00BB89E1 /* Assets.xcassets */; };
 		5FFEFFF624D3A0CC00BB89E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF524D3A0CC00BB89E1 /* Preview Assets.xcassets */; };
 		5FFEFFF924D3A0CC00BB89E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF724D3A0CC00BB89E1 /* LaunchScreen.storyboard */; };
+		C3483F874CA6445CEBCC9FFB /* Pods_sildish_sildishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5989C64A236E4CBB32A3F1 /* Pods_sildish_sildishUITests.framework */; };
+		D354D3908AF3D02800F9EB37 /* Pods_sildishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670A2CDB43A6BFCEE4739BB8 /* Pods_sildishTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +80,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5FFE000324D3A0CC00BB89E1 /* sildishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sildishTests.swift; sourceTree = "<group>"; };
+		1C5989C64A236E4CBB32A3F1 /* Pods_sildish_sildishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sildish_sildishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48107BA5560A7AB335066DCA /* Pods-sildishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildishTests.release.xcconfig"; path = "Target Support Files/Pods-sildishTests/Pods-sildishTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F0863FE24E0C65600FEFEBC /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
+		5F0863FF24E0C65600FEFEBC /* v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v.mp3; sourceTree = "<group>"; };
+		5F08640024E0C65600FEFEBC /* w.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = w.mp3; sourceTree = "<group>"; };
+		5F08640124E0C65600FEFEBC /* b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b.mp3; sourceTree = "<group>"; };
+		5F08640224E0C65600FEFEBC /* u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = u.mp3; sourceTree = "<group>"; };
+		5F08640324E0C65600FEFEBC /* t.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = t.mp3; sourceTree = "<group>"; };
+		5F08640424E0C65600FEFEBC /* c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c.mp3; sourceTree = "<group>"; };
+		5F08640524E0C65600FEFEBC /* p.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = p.mp3; sourceTree = "<group>"; };
+		5F08640624E0C65600FEFEBC /* g.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = g.mp3; sourceTree = "<group>"; };
+		5F08640724E0C65600FEFEBC /* f.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = f.mp3; sourceTree = "<group>"; };
+		5F08640824E0C65600FEFEBC /* th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = th.mp3; sourceTree = "<group>"; };
+		5F08640924E0C65600FEFEBC /* s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = s.mp3; sourceTree = "<group>"; };
+		5F08640A24E0C65600FEFEBC /* d.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = d.mp3; sourceTree = "<group>"; };
+		5F08640B24E0C65600FEFEBC /* e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e.mp3; sourceTree = "<group>"; };
+		5F08640C24E0C65600FEFEBC /* rh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rh.mp3; sourceTree = "<group>"; };
+		5F08640D24E0C65600FEFEBC /* ng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ng.mp3; sourceTree = "<group>"; };
+		5F08640E24E0C65600FEFEBC /* hw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hw.mp3; sourceTree = "<group>"; };
+		5F08640F24E0C65600FEFEBC /* sh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sh.mp3; sourceTree = "<group>"; };
+		5F08641024E0C65600FEFEBC /* r.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = r.mp3; sourceTree = "<group>"; };
+		5F08641124E0C65600FEFEBC /* dh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dh.mp3; sourceTree = "<group>"; };
+		5F08641224E0C65600FEFEBC /* h.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = h.mp3; sourceTree = "<group>"; };
+		5F08641324E0C65600FEFEBC /* i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = i.mp3; sourceTree = "<group>"; };
+		5F08641424E0C65600FEFEBC /* j.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = j.mp3; sourceTree = "<group>"; };
+		5F08641524E0C65700FEFEBC /* n.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = n.mp3; sourceTree = "<group>"; };
+		5F08641624E0C65700FEFEBC /* y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = y.mp3; sourceTree = "<group>"; };
+		5F08641724E0C65700FEFEBC /* o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = o.mp3; sourceTree = "<group>"; };
+		5F08641824E0C65700FEFEBC /* zh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zh.mp3; sourceTree = "<group>"; };
+		5F08641924E0C65700FEFEBC /* m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m.mp3; sourceTree = "<group>"; };
+		5F08641A24E0C65700FEFEBC /* ch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ch.mp3; sourceTree = "<group>"; };
+		5F08641B24E0C65700FEFEBC /* z.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = z.mp3; sourceTree = "<group>"; };
+		5F08641C24E0C65700FEFEBC /* l.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = l.mp3; sourceTree = "<group>"; };
+		5F08643E24E0DC0400FEFEBC /* PlayIPAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayIPAButton.swift; sourceTree = "<group>"; };
+		5F08644024E0E8CC00FEFEBC /* Transliteration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transliteration.swift; sourceTree = "<group>"; };
+		5F0F1B1124E206EE00439742 /* TransliterationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransliterationTests.swift; sourceTree = "<group>"; };
+		5F1E164E24D3ADFE003816DA /* SoundSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSystem.swift; sourceTree = "<group>"; };
+		5F1E165124D49224003816DA /* Sildish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sildish-Regular.ttf"; sourceTree = "<group>"; };
+		5F1E165324D49543003816DA /* PhonemeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonemeList.swift; sourceTree = "<group>"; };
+		5F1E165624D49FDF003816DA /* PhonemeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonemeDetail.swift; sourceTree = "<group>"; };
+		5F38D2AC24E37FFB0095DE7A /* TransliteratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransliteratorView.swift; sourceTree = "<group>"; };
+		5F38D2AE24E449C50095DE7A /* SelectableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableText.swift; sourceTree = "<group>"; };
+		5F38D2B024E482430095DE7A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F929F7D24DF2419007F4989 /* PrefixTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixTree.swift; sourceTree = "<group>"; };
+		5FFE000324D3A0CC00BB89E1 /* PrefixTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixTreeTests.swift; sourceTree = "<group>"; };
 		5FFE000524D3A0CC00BB89E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FFE000A24D3A0CC00BB89E1 /* sildishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sildishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FFE000E24D3A0CC00BB89E1 /* sildishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sildishUITests.swift; sourceTree = "<group>"; };
+		5FFE000E24D3A0CC00BB89E1 /* SildishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SildishUITests.swift; sourceTree = "<group>"; };
 		5FFE001024D3A0CC00BB89E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FFEFFE624D3A0CA00BB89E1 /* sildish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sildish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FFEFFE624D3A0CA00BB89E1 /* Sildish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sildish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFEFFE924D3A0CA00BB89E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FFEFFEB24D3A0CA00BB89E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5FFEFFEE24D3A0CA00BB89E1 /* sildish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sildish.xcdatamodel; sourceTree = "<group>"; };
-		5FFEFFF024D3A0CA00BB89E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FFEFFF024D3A0CA00BB89E1 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
 		5FFEFFF224D3A0CC00BB89E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FFEFFF524D3A0CC00BB89E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FFEFFF824D3A0CC00BB89E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FFEFFFA24D3A0CC00BB89E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FFEFFFF24D3A0CC00BB89E1 /* sildishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sildishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		670A2CDB43A6BFCEE4739BB8 /* Pods_sildishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sildishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A254FF07C3AB7EB0C07CEDB /* Pods-sildish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildish.debug.xcconfig"; path = "Target Support Files/Pods-sildish/Pods-sildish.debug.xcconfig"; sourceTree = "<group>"; };
+		78760BD2FB63C8B3DB3A9958 /* Pods-sildish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildish.release.xcconfig"; path = "Target Support Files/Pods-sildish/Pods-sildish.release.xcconfig"; sourceTree = "<group>"; };
+		8B83EC5A0832552C34F3335B /* Pods-sildish-sildishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildish-sildishUITests.release.xcconfig"; path = "Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94EBDB8D2A648C98E5D1311B /* Pods_sildish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sildish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E4D2553DB447B2DF4B1F28 /* Pods-sildishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildishTests.debug.xcconfig"; path = "Target Support Files/Pods-sildishTests/Pods-sildishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E10A600D046443646682C260 /* Pods-sildish-sildishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildish-sildishUITests.debug.xcconfig"; path = "Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3483F874CA6445CEBCC9FFB /* Pods_sildish_sildishUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D938B2743059C599C9262E /* Pods_sildish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,63 +169,158 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D354D3908AF3D02800F9EB37 /* Pods_sildishTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5FFE000224D3A0CC00BB89E1 /* sildishTests */ = {
+		36486B9155235F7B3E7CA375 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5FFE000324D3A0CC00BB89E1 /* sildishTests.swift */,
-				5FFE000524D3A0CC00BB89E1 /* Info.plist */,
+				94EBDB8D2A648C98E5D1311B /* Pods_sildish.framework */,
+				1C5989C64A236E4CBB32A3F1 /* Pods_sildish_sildishUITests.framework */,
+				670A2CDB43A6BFCEE4739BB8 /* Pods_sildishTests.framework */,
 			);
-			path = sildishTests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5FFE000D24D3A0CC00BB89E1 /* sildishUITests */ = {
+		5F0863FC24E0C65600FEFEBC /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				5FFE000E24D3A0CC00BB89E1 /* sildishUITests.swift */,
+				5F0863FD24E0C65600FEFEBC /* phonemes */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		5F0863FD24E0C65600FEFEBC /* phonemes */ = {
+			isa = PBXGroup;
+			children = (
+				5F0863FE24E0C65600FEFEBC /* a.mp3 */,
+				5F0863FF24E0C65600FEFEBC /* v.mp3 */,
+				5F08640024E0C65600FEFEBC /* w.mp3 */,
+				5F08640124E0C65600FEFEBC /* b.mp3 */,
+				5F08640224E0C65600FEFEBC /* u.mp3 */,
+				5F08640324E0C65600FEFEBC /* t.mp3 */,
+				5F08640424E0C65600FEFEBC /* c.mp3 */,
+				5F08640524E0C65600FEFEBC /* p.mp3 */,
+				5F08640624E0C65600FEFEBC /* g.mp3 */,
+				5F08640724E0C65600FEFEBC /* f.mp3 */,
+				5F08640824E0C65600FEFEBC /* th.mp3 */,
+				5F08640924E0C65600FEFEBC /* s.mp3 */,
+				5F08640A24E0C65600FEFEBC /* d.mp3 */,
+				5F08640B24E0C65600FEFEBC /* e.mp3 */,
+				5F08640C24E0C65600FEFEBC /* rh.mp3 */,
+				5F08640D24E0C65600FEFEBC /* ng.mp3 */,
+				5F08640E24E0C65600FEFEBC /* hw.mp3 */,
+				5F08640F24E0C65600FEFEBC /* sh.mp3 */,
+				5F08641024E0C65600FEFEBC /* r.mp3 */,
+				5F08641124E0C65600FEFEBC /* dh.mp3 */,
+				5F08641224E0C65600FEFEBC /* h.mp3 */,
+				5F08641324E0C65600FEFEBC /* i.mp3 */,
+				5F08641424E0C65600FEFEBC /* j.mp3 */,
+				5F08641524E0C65700FEFEBC /* n.mp3 */,
+				5F08641624E0C65700FEFEBC /* y.mp3 */,
+				5F08641724E0C65700FEFEBC /* o.mp3 */,
+				5F08641824E0C65700FEFEBC /* zh.mp3 */,
+				5F08641924E0C65700FEFEBC /* m.mp3 */,
+				5F08641A24E0C65700FEFEBC /* ch.mp3 */,
+				5F08641B24E0C65700FEFEBC /* z.mp3 */,
+				5F08641C24E0C65700FEFEBC /* l.mp3 */,
+			);
+			path = phonemes;
+			sourceTree = "<group>";
+		};
+		5F1E164D24D3ADB6003816DA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5F1E164E24D3ADFE003816DA /* SoundSystem.swift */,
+				5F929F7D24DF2419007F4989 /* PrefixTree.swift */,
+				5F08644024E0E8CC00FEFEBC /* Transliteration.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5F1E165024D491F6003816DA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5F1E165124D49224003816DA /* Sildish-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		5F1E165524D49FBC003816DA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5FFEFFF024D3A0CA00BB89E1 /* ToolsView.swift */,
+				5F1E165324D49543003816DA /* PhonemeList.swift */,
+				5F1E165624D49FDF003816DA /* PhonemeDetail.swift */,
+				5F08643E24E0DC0400FEFEBC /* PlayIPAButton.swift */,
+				5F38D2AC24E37FFB0095DE7A /* TransliteratorView.swift */,
+				5F38D2AE24E449C50095DE7A /* SelectableText.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		5FFE000224D3A0CC00BB89E1 /* SildishTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FFE000324D3A0CC00BB89E1 /* PrefixTreeTests.swift */,
+				5FFE000524D3A0CC00BB89E1 /* Info.plist */,
+				5F0F1B1124E206EE00439742 /* TransliterationTests.swift */,
+			);
+			path = SildishTests;
+			sourceTree = "<group>";
+		};
+		5FFE000D24D3A0CC00BB89E1 /* SildishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FFE000E24D3A0CC00BB89E1 /* SildishUITests.swift */,
 				5FFE001024D3A0CC00BB89E1 /* Info.plist */,
 			);
-			path = sildishUITests;
+			path = SildishUITests;
 			sourceTree = "<group>";
 		};
 		5FFEFFDD24D3A0CA00BB89E1 = {
 			isa = PBXGroup;
 			children = (
-				5FFEFFE824D3A0CA00BB89E1 /* sildish */,
-				5FFE000224D3A0CC00BB89E1 /* sildishTests */,
-				5FFE000D24D3A0CC00BB89E1 /* sildishUITests */,
+				5F38D2B024E482430095DE7A /* README.md */,
+				5FFEFFE824D3A0CA00BB89E1 /* Sildish */,
+				5FFE000224D3A0CC00BB89E1 /* SildishTests */,
+				5FFE000D24D3A0CC00BB89E1 /* SildishUITests */,
 				5FFEFFE724D3A0CA00BB89E1 /* Products */,
+				D0CD1163C998F8851FBFB806 /* Pods */,
+				36486B9155235F7B3E7CA375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5FFEFFE724D3A0CA00BB89E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FFEFFE624D3A0CA00BB89E1 /* sildish.app */,
+				5FFEFFE624D3A0CA00BB89E1 /* Sildish.app */,
 				5FFEFFFF24D3A0CC00BB89E1 /* sildishTests.xctest */,
 				5FFE000A24D3A0CC00BB89E1 /* sildishUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5FFEFFE824D3A0CA00BB89E1 /* sildish */ = {
+		5FFEFFE824D3A0CA00BB89E1 /* Sildish */ = {
 			isa = PBXGroup;
 			children = (
+				5F0863FC24E0C65600FEFEBC /* audio */,
+				5F1E165524D49FBC003816DA /* views */,
+				5F1E165024D491F6003816DA /* fonts */,
+				5F1E164D24D3ADB6003816DA /* model */,
 				5FFEFFE924D3A0CA00BB89E1 /* AppDelegate.swift */,
 				5FFEFFEB24D3A0CA00BB89E1 /* SceneDelegate.swift */,
-				5FFEFFF024D3A0CA00BB89E1 /* ContentView.swift */,
 				5FFEFFF224D3A0CC00BB89E1 /* Assets.xcassets */,
 				5FFEFFF724D3A0CC00BB89E1 /* LaunchScreen.storyboard */,
 				5FFEFFFA24D3A0CC00BB89E1 /* Info.plist */,
 				5FFEFFED24D3A0CA00BB89E1 /* sildish.xcdatamodeld */,
 				5FFEFFF424D3A0CC00BB89E1 /* Preview Content */,
 			);
-			path = sildish;
+			path = Sildish;
 			sourceTree = "<group>";
 		};
 		5FFEFFF424D3A0CC00BB89E1 /* Preview Content */ = {
@@ -139,6 +331,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D0CD1163C998F8851FBFB806 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A254FF07C3AB7EB0C07CEDB /* Pods-sildish.debug.xcconfig */,
+				78760BD2FB63C8B3DB3A9958 /* Pods-sildish.release.xcconfig */,
+				E10A600D046443646682C260 /* Pods-sildish-sildishUITests.debug.xcconfig */,
+				8B83EC5A0832552C34F3335B /* Pods-sildish-sildishUITests.release.xcconfig */,
+				D0E4D2553DB447B2DF4B1F28 /* Pods-sildishTests.debug.xcconfig */,
+				48107BA5560A7AB335066DCA /* Pods-sildishTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FFE001924D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildishUITests" */;
 			buildPhases = (
+				0F360D628F1FCBBD33231E7C /* [CP] Check Pods Manifest.lock */,
 				5FFE000624D3A0CC00BB89E1 /* Sources */,
 				5FFE000724D3A0CC00BB89E1 /* Frameworks */,
 				5FFE000824D3A0CC00BB89E1 /* Resources */,
+				9D054CD223AEB9F04FE35BE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,9 +371,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FFE001324D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildish" */;
 			buildPhases = (
+				008C0231ED5C1B4176CC855B /* [CP] Check Pods Manifest.lock */,
 				5FFEFFE224D3A0CA00BB89E1 /* Sources */,
 				5FFEFFE324D3A0CA00BB89E1 /* Frameworks */,
 				5FFEFFE424D3A0CA00BB89E1 /* Resources */,
+				E112376E85477E3044203396 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,13 +383,14 @@
 			);
 			name = sildish;
 			productName = sildish;
-			productReference = 5FFEFFE624D3A0CA00BB89E1 /* sildish.app */;
+			productReference = 5FFEFFE624D3A0CA00BB89E1 /* Sildish.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5FFEFFFE24D3A0CC00BB89E1 /* sildishTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FFE001624D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildishTests" */;
 			buildPhases = (
+				A023B1563716C182910DB2DF /* [CP] Check Pods Manifest.lock */,
 				5FFEFFFB24D3A0CC00BB89E1 /* Sources */,
 				5FFEFFFC24D3A0CC00BB89E1 /* Frameworks */,
 				5FFEFFFD24D3A0CC00BB89E1 /* Resources */,
@@ -250,8 +460,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F08643624E0C65700FEFEBC /* o.mp3 in Resources */,
+				5F08643024E0C65700FEFEBC /* dh.mp3 in Resources */,
+				5F08642F24E0C65700FEFEBC /* r.mp3 in Resources */,
+				5F08643724E0C65700FEFEBC /* zh.mp3 in Resources */,
+				5F08642324E0C65700FEFEBC /* c.mp3 in Resources */,
 				5FFEFFF924D3A0CC00BB89E1 /* LaunchScreen.storyboard in Resources */,
 				5FFEFFF624D3A0CC00BB89E1 /* Preview Assets.xcassets in Resources */,
+				5F08642B24E0C65700FEFEBC /* rh.mp3 in Resources */,
+				5F08643524E0C65700FEFEBC /* y.mp3 in Resources */,
+				5F08642424E0C65700FEFEBC /* p.mp3 in Resources */,
+				5F08642C24E0C65700FEFEBC /* ng.mp3 in Resources */,
+				5F08643B24E0C65700FEFEBC /* l.mp3 in Resources */,
+				5F08641F24E0C65700FEFEBC /* w.mp3 in Resources */,
+				5F08643324E0C65700FEFEBC /* j.mp3 in Resources */,
+				5F08642124E0C65700FEFEBC /* u.mp3 in Resources */,
+				5F08642A24E0C65700FEFEBC /* e.mp3 in Resources */,
+				5F08643A24E0C65700FEFEBC /* z.mp3 in Resources */,
+				5F08642824E0C65700FEFEBC /* s.mp3 in Resources */,
+				5F08643824E0C65700FEFEBC /* m.mp3 in Resources */,
+				5F08642D24E0C65700FEFEBC /* hw.mp3 in Resources */,
+				5F1E165224D49278003816DA /* Sildish-Regular.ttf in Resources */,
+				5F08643224E0C65700FEFEBC /* i.mp3 in Resources */,
+				5F08643924E0C65700FEFEBC /* ch.mp3 in Resources */,
+				5F08643124E0C65700FEFEBC /* h.mp3 in Resources */,
+				5F08643424E0C65700FEFEBC /* n.mp3 in Resources */,
+				5F08642624E0C65700FEFEBC /* f.mp3 in Resources */,
+				5F08642224E0C65700FEFEBC /* t.mp3 in Resources */,
+				5F08642924E0C65700FEFEBC /* d.mp3 in Resources */,
+				5F08642E24E0C65700FEFEBC /* sh.mp3 in Resources */,
+				5F08641E24E0C65700FEFEBC /* v.mp3 in Resources */,
+				5F08642724E0C65700FEFEBC /* th.mp3 in Resources */,
+				5F08642024E0C65700FEFEBC /* b.mp3 in Resources */,
+				5F08641D24E0C65700FEFEBC /* a.mp3 in Resources */,
+				5F08642524E0C65700FEFEBC /* g.mp3 in Resources */,
 				5FFEFFF324D3A0CC00BB89E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,12 +507,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		008C0231ED5C1B4176CC855B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sildish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F360D628F1FCBBD33231E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sildish-sildishUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D054CD223AEB9F04FE35BE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A023B1563716C182910DB2DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sildishTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E112376E85477E3044203396 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sildish/Pods-sildish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sildish/Pods-sildish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sildish/Pods-sildish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5FFE000624D3A0CC00BB89E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FFE000F24D3A0CC00BB89E1 /* sildishUITests.swift in Sources */,
+				5FFE000F24D3A0CC00BB89E1 /* SildishUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +623,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1E165424D49543003816DA /* PhonemeList.swift in Sources */,
+				5F1E164F24D3ADFE003816DA /* SoundSystem.swift in Sources */,
 				5FFEFFEF24D3A0CA00BB89E1 /* sildish.xcdatamodeld in Sources */,
+				5F929F7E24DF2419007F4989 /* PrefixTree.swift in Sources */,
+				5F38D2AF24E449C50095DE7A /* SelectableText.swift in Sources */,
+				5F1E165724D49FDF003816DA /* PhonemeDetail.swift in Sources */,
+				5F08644124E0E8CC00FEFEBC /* Transliteration.swift in Sources */,
+				5F38D2AD24E37FFB0095DE7A /* TransliteratorView.swift in Sources */,
 				5FFEFFEA24D3A0CA00BB89E1 /* AppDelegate.swift in Sources */,
-				5FFEFFF124D3A0CA00BB89E1 /* ContentView.swift in Sources */,
+				5FFEFFF124D3A0CA00BB89E1 /* ToolsView.swift in Sources */,
 				5FFEFFEC24D3A0CA00BB89E1 /* SceneDelegate.swift in Sources */,
+				5F08643F24E0DC0400FEFEBC /* PlayIPAButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +642,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FFE000424D3A0CC00BB89E1 /* sildishTests.swift in Sources */,
+				5FFE000424D3A0CC00BB89E1 /* PrefixTreeTests.swift in Sources */,
+				5F0F1B1324E2072F00439742 /* TransliterationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,46 +790,53 @@
 		};
 		5FFE001424D3A0CC00BB89E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A254FF07C3AB7EB0C07CEDB /* Pods-sildish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"sildish/Preview Content\"";
 				DEVELOPMENT_TEAM = U77H4N95BZ;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = sildish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.elushae.sildish;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Sildish;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "${BUILT_PRODUCTS_DIR}/Sildish.app/Sildish";
 			};
 			name = Debug;
 		};
 		5FFE001524D3A0CC00BB89E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78760BD2FB63C8B3DB3A9958 /* Pods-sildish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"sildish/Preview Content\"";
 				DEVELOPMENT_TEAM = U77H4N95BZ;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = sildish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.elushae.sildish;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Sildish;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "${BUILT_PRODUCTS_DIR}/Sildish.app/Sildish";
 			};
 			name = Release;
 		};
 		5FFE001724D3A0CC00BB89E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E4D2553DB447B2DF4B1F28 /* Pods-sildishTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,12 +853,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sildish.app/sildish";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sildish.app/Sildish";
 			};
 			name = Debug;
 		};
 		5FFE001824D3A0CC00BB89E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48107BA5560A7AB335066DCA /* Pods-sildishTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,12 +876,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sildish.app/sildish";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sildish.app/Sildish";
 			};
 			name = Release;
 		};
 		5FFE001A24D3A0CC00BB89E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10A600D046443646682C260 /* Pods-sildish-sildishUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +903,7 @@
 		};
 		5FFE001B24D3A0CC00BB89E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B83EC5A0832552C34F3335B /* Pods-sildish-sildishUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

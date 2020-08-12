@@ -1,0 +1,6 @@
+framework module Pods_sildish_sildishUITests {
+  umbrella header "Pods-sildish-sildishUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
