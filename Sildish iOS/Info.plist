@@ -7,7 +7,7 @@
 		<string>Sildish-Regular.ttf</string>
 	</array>
 	<key>ATSApplicationFontsPath</key>
-	<string>./fonts</string>
+	<string>Sildish/Common/fonts</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

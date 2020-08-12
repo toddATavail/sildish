@@ -45,9 +45,56 @@
 		5F1E164F24D3ADFE003816DA /* SoundSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E164E24D3ADFE003816DA /* SoundSystem.swift */; };
 		5F1E165224D49278003816DA /* Sildish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F1E165124D49224003816DA /* Sildish-Regular.ttf */; };
 		5F1E165424D49543003816DA /* PhonemeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E165324D49543003816DA /* PhonemeList.swift */; };
-		5F1E165724D49FDF003816DA /* PhonemeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E165624D49FDF003816DA /* PhonemeDetail.swift */; };
 		5F38D2AD24E37FFB0095DE7A /* TransliteratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D2AC24E37FFB0095DE7A /* TransliteratorView.swift */; };
 		5F38D2AF24E449C50095DE7A /* SelectableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D2AE24E449C50095DE7A /* SelectableText.swift */; };
+		5F38D2EE24E48DA60095DE7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D2ED24E48DA60095DE7A /* AppDelegate.swift */; };
+		5F38D2F324E48DA60095DE7A /* Sildish_MacOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D2F124E48DA60095DE7A /* Sildish_MacOS.xcdatamodeld */; };
+		5F38D2F524E48DA60095DE7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F38D2F424E48DA60095DE7A /* Assets.xcassets */; };
+		5F38D2F824E48DA60095DE7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F38D2F724E48DA60095DE7A /* Preview Assets.xcassets */; };
+		5F38D2FB24E48DA60095DE7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F38D2F924E48DA60095DE7A /* Main.storyboard */; };
+		5F38D30724E48DA60095DE7A /* Sildish_MacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D30624E48DA60095DE7A /* Sildish_MacOSTests.swift */; };
+		5F38D31224E48DA60095DE7A /* Sildish_MacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D31124E48DA60095DE7A /* Sildish_MacOSUITests.swift */; };
+		5F38D31F24E491C60095DE7A /* PhonemeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E165624D49FDF003816DA /* PhonemeDetail.swift */; };
+		5F38D32324E491C60095DE7A /* SoundSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E164E24D3ADFE003816DA /* SoundSystem.swift */; };
+		5F38D32424E491C60095DE7A /* PrefixTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F929F7D24DF2419007F4989 /* PrefixTree.swift */; };
+		5F38D32524E491C60095DE7A /* Transliteration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F08644024E0E8CC00FEFEBC /* Transliteration.swift */; };
+		5F38D32624E491F00095DE7A /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F0863FE24E0C65600FEFEBC /* a.mp3 */; };
+		5F38D32724E491F00095DE7A /* v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F0863FF24E0C65600FEFEBC /* v.mp3 */; };
+		5F38D32824E491F00095DE7A /* w.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640024E0C65600FEFEBC /* w.mp3 */; };
+		5F38D32924E491F00095DE7A /* b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640124E0C65600FEFEBC /* b.mp3 */; };
+		5F38D32A24E491F00095DE7A /* u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640224E0C65600FEFEBC /* u.mp3 */; };
+		5F38D32B24E491F00095DE7A /* t.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640324E0C65600FEFEBC /* t.mp3 */; };
+		5F38D32C24E491F00095DE7A /* c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640424E0C65600FEFEBC /* c.mp3 */; };
+		5F38D32D24E491F00095DE7A /* p.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640524E0C65600FEFEBC /* p.mp3 */; };
+		5F38D32E24E491F00095DE7A /* g.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640624E0C65600FEFEBC /* g.mp3 */; };
+		5F38D32F24E491F00095DE7A /* f.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640724E0C65600FEFEBC /* f.mp3 */; };
+		5F38D33024E491F00095DE7A /* th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640824E0C65600FEFEBC /* th.mp3 */; };
+		5F38D33124E491F00095DE7A /* s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640924E0C65600FEFEBC /* s.mp3 */; };
+		5F38D33224E491F00095DE7A /* d.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640A24E0C65600FEFEBC /* d.mp3 */; };
+		5F38D33324E491F00095DE7A /* e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640B24E0C65600FEFEBC /* e.mp3 */; };
+		5F38D33424E491F00095DE7A /* rh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640C24E0C65600FEFEBC /* rh.mp3 */; };
+		5F38D33524E491F00095DE7A /* ng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640D24E0C65600FEFEBC /* ng.mp3 */; };
+		5F38D33624E491F00095DE7A /* hw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640E24E0C65600FEFEBC /* hw.mp3 */; };
+		5F38D33724E491F00095DE7A /* sh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08640F24E0C65600FEFEBC /* sh.mp3 */; };
+		5F38D33824E491F00095DE7A /* r.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641024E0C65600FEFEBC /* r.mp3 */; };
+		5F38D33924E491F00095DE7A /* dh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641124E0C65600FEFEBC /* dh.mp3 */; };
+		5F38D33A24E491F00095DE7A /* h.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641224E0C65600FEFEBC /* h.mp3 */; };
+		5F38D33B24E491F00095DE7A /* i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641324E0C65600FEFEBC /* i.mp3 */; };
+		5F38D33C24E491F00095DE7A /* j.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641424E0C65600FEFEBC /* j.mp3 */; };
+		5F38D33D24E491F00095DE7A /* n.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641524E0C65700FEFEBC /* n.mp3 */; };
+		5F38D33E24E491F00095DE7A /* y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641624E0C65700FEFEBC /* y.mp3 */; };
+		5F38D33F24E491F00095DE7A /* o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641724E0C65700FEFEBC /* o.mp3 */; };
+		5F38D34024E491F00095DE7A /* zh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641824E0C65700FEFEBC /* zh.mp3 */; };
+		5F38D34124E491F00095DE7A /* m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641924E0C65700FEFEBC /* m.mp3 */; };
+		5F38D34224E491F00095DE7A /* ch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641A24E0C65700FEFEBC /* ch.mp3 */; };
+		5F38D34324E491F00095DE7A /* z.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641B24E0C65700FEFEBC /* z.mp3 */; };
+		5F38D34424E491F00095DE7A /* l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F08641C24E0C65700FEFEBC /* l.mp3 */; };
+		5F38D34524E491F50095DE7A /* Sildish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F1E165124D49224003816DA /* Sildish-Regular.ttf */; };
+		5F38D34F24E499F60095DE7A /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D34C24E499EC0095DE7A /* ToolsView.swift */; };
+		5F38D35024E499F60095DE7A /* PhonemeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D34D24E499EC0095DE7A /* PhonemeList.swift */; };
+		5F38D35124E499F60095DE7A /* PlayIPAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D34E24E499EC0095DE7A /* PlayIPAButton.swift */; };
+		5F38D35224E499F60095DE7A /* TransliteratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D34A24E499EC0095DE7A /* TransliteratorView.swift */; };
+		5F38D35524E4A9DF0095DE7A /* PhonemeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F38D35424E4A9DF0095DE7A /* PhonemeDetail.swift */; };
 		5F929F7E24DF2419007F4989 /* PrefixTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F929F7D24DF2419007F4989 /* PrefixTree.swift */; };
 		5FFE000424D3A0CC00BB89E1 /* PrefixTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE000324D3A0CC00BB89E1 /* PrefixTreeTests.swift */; };
 		5FFE000F24D3A0CC00BB89E1 /* SildishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE000E24D3A0CC00BB89E1 /* SildishUITests.swift */; };
@@ -58,11 +105,28 @@
 		5FFEFFF324D3A0CC00BB89E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF224D3A0CC00BB89E1 /* Assets.xcassets */; };
 		5FFEFFF624D3A0CC00BB89E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF524D3A0CC00BB89E1 /* Preview Assets.xcassets */; };
 		5FFEFFF924D3A0CC00BB89E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FFEFFF724D3A0CC00BB89E1 /* LaunchScreen.storyboard */; };
+		B490F64E5047BE845608A9B2 /* Pods_Sildish_MacOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158C5FB36D05BE29724AAEE2 /* Pods_Sildish_MacOSTests.framework */; };
+		B72742CA96AAC33D731A14DB /* Pods_Sildish_MacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC286CC23EB5157FF3E41DCC /* Pods_Sildish_MacOS.framework */; };
+		BDD23CAF9CEC68454CF64129 /* Pods_Sildish_MacOS_Sildish_MacOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094F777C6990F76041896611 /* Pods_Sildish_MacOS_Sildish_MacOSUITests.framework */; };
 		C3483F874CA6445CEBCC9FFB /* Pods_sildish_sildishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5989C64A236E4CBB32A3F1 /* Pods_sildish_sildishUITests.framework */; };
 		D354D3908AF3D02800F9EB37 /* Pods_sildishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670A2CDB43A6BFCEE4739BB8 /* Pods_sildishTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5F38D30324E48DA60095DE7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FFEFFDE24D3A0CA00BB89E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F38D2EA24E48DA60095DE7A;
+			remoteInfo = "Sildish MacOS";
+		};
+		5F38D30E24E48DA60095DE7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FFEFFDE24D3A0CA00BB89E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F38D2EA24E48DA60095DE7A;
+			remoteInfo = "Sildish MacOS";
+		};
 		5FFE000024D3A0CC00BB89E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5FFEFFDE24D3A0CA00BB89E1 /* Project object */;
@@ -80,8 +144,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		094F777C6990F76041896611 /* Pods_Sildish_MacOS_Sildish_MacOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sildish_MacOS_Sildish_MacOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		158C5FB36D05BE29724AAEE2 /* Pods_Sildish_MacOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sildish_MacOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5989C64A236E4CBB32A3F1 /* Pods_sildish_sildishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sildish_sildishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48107BA5560A7AB335066DCA /* Pods-sildishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildishTests.release.xcconfig"; path = "Target Support Files/Pods-sildishTests/Pods-sildishTests.release.xcconfig"; sourceTree = "<group>"; };
+		4CD72F313FE84DE474F2C5F5 /* Pods-Sildish MacOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sildish MacOSTests.release.xcconfig"; path = "Target Support Files/Pods-Sildish MacOSTests/Pods-Sildish MacOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F4B81F1C395F908DBD7212E /* Pods-Sildish MacOS-Sildish MacOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sildish MacOS-Sildish MacOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Sildish MacOS-Sildish MacOSUITests/Pods-Sildish MacOS-Sildish MacOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5F0863FE24E0C65600FEFEBC /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
 		5F0863FF24E0C65600FEFEBC /* v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v.mp3; sourceTree = "<group>"; };
 		5F08640024E0C65600FEFEBC /* w.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = w.mp3; sourceTree = "<group>"; };
@@ -123,6 +191,25 @@
 		5F38D2AC24E37FFB0095DE7A /* TransliteratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransliteratorView.swift; sourceTree = "<group>"; };
 		5F38D2AE24E449C50095DE7A /* SelectableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableText.swift; sourceTree = "<group>"; };
 		5F38D2B024E482430095DE7A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F38D2EB24E48DA60095DE7A /* Sildish MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sildish MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F38D2ED24E48DA60095DE7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F38D2F224E48DA60095DE7A /* Sildish_MacOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sildish_MacOS.xcdatamodel; sourceTree = "<group>"; };
+		5F38D2F424E48DA60095DE7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F38D2F724E48DA60095DE7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F38D2FA24E48DA60095DE7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F38D2FC24E48DA60095DE7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F38D2FD24E48DA60095DE7A /* Sildish_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sildish_MacOS.entitlements; sourceTree = "<group>"; };
+		5F38D30224E48DA60095DE7A /* Sildish MacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sildish MacOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F38D30624E48DA60095DE7A /* Sildish_MacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sildish_MacOSTests.swift; sourceTree = "<group>"; };
+		5F38D30824E48DA60095DE7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F38D30D24E48DA60095DE7A /* Sildish MacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sildish MacOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F38D31124E48DA60095DE7A /* Sildish_MacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sildish_MacOSUITests.swift; sourceTree = "<group>"; };
+		5F38D31324E48DA60095DE7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F38D34A24E499EC0095DE7A /* TransliteratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransliteratorView.swift; sourceTree = "<group>"; };
+		5F38D34C24E499EC0095DE7A /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		5F38D34D24E499EC0095DE7A /* PhonemeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonemeList.swift; sourceTree = "<group>"; };
+		5F38D34E24E499EC0095DE7A /* PlayIPAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayIPAButton.swift; sourceTree = "<group>"; };
+		5F38D35424E4A9DF0095DE7A /* PhonemeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonemeDetail.swift; sourceTree = "<group>"; };
 		5F929F7D24DF2419007F4989 /* PrefixTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixTree.swift; sourceTree = "<group>"; };
 		5FFE000324D3A0CC00BB89E1 /* PrefixTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefixTreeTests.swift; sourceTree = "<group>"; };
 		5FFE000524D3A0CC00BB89E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -142,13 +229,42 @@
 		670A2CDB43A6BFCEE4739BB8 /* Pods_sildishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sildishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A254FF07C3AB7EB0C07CEDB /* Pods-sildish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildish.debug.xcconfig"; path = "Target Support Files/Pods-sildish/Pods-sildish.debug.xcconfig"; sourceTree = "<group>"; };
 		78760BD2FB63C8B3DB3A9958 /* Pods-sildish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildish.release.xcconfig"; path = "Target Support Files/Pods-sildish/Pods-sildish.release.xcconfig"; sourceTree = "<group>"; };
+		7D200EDAD204E1616D287551 /* Pods-Sildish MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sildish MacOS.debug.xcconfig"; path = "Target Support Files/Pods-Sildish MacOS/Pods-Sildish MacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		84F64B934F551FD1A227C6F0 /* Pods-Sildish MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sildish MacOS.release.xcconfig"; path = "Target Support Files/Pods-Sildish MacOS/Pods-Sildish MacOS.release.xcconfig"; sourceTree = "<group>"; };
 		8B83EC5A0832552C34F3335B /* Pods-sildish-sildishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildish-sildishUITests.release.xcconfig"; path = "Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests.release.xcconfig"; sourceTree = "<group>"; };
 		94EBDB8D2A648C98E5D1311B /* Pods_sildish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sildish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E9C6C30A14E8F3942B91FF /* Pods-Sildish MacOS-Sildish MacOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sildish MacOS-Sildish MacOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sildish MacOS-Sildish MacOSUITests/Pods-Sildish MacOS-Sildish MacOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0E4D2553DB447B2DF4B1F28 /* Pods-sildishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildishTests.debug.xcconfig"; path = "Target Support Files/Pods-sildishTests/Pods-sildishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0308F869334D00BFE0C3FFF /* Pods-Sildish MacOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sildish MacOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Sildish MacOSTests/Pods-Sildish MacOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E10A600D046443646682C260 /* Pods-sildish-sildishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sildish-sildishUITests.debug.xcconfig"; path = "Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC286CC23EB5157FF3E41DCC /* Pods_Sildish_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sildish_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5F38D2E824E48DA60095DE7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72742CA96AAC33D731A14DB /* Pods_Sildish_MacOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F38D2FF24E48DA60095DE7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B490F64E5047BE845608A9B2 /* Pods_Sildish_MacOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F38D30A24E48DA60095DE7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD23CAF9CEC68454CF64129 /* Pods_Sildish_MacOS_Sildish_MacOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FFE000724D3A0CC00BB89E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,6 +298,9 @@
 				94EBDB8D2A648C98E5D1311B /* Pods_sildish.framework */,
 				1C5989C64A236E4CBB32A3F1 /* Pods_sildish_sildishUITests.framework */,
 				670A2CDB43A6BFCEE4739BB8 /* Pods_sildishTests.framework */,
+				FC286CC23EB5157FF3E41DCC /* Pods_Sildish_MacOS.framework */,
+				094F777C6990F76041896611 /* Pods_Sildish_MacOS_Sildish_MacOSUITests.framework */,
+				158C5FB36D05BE29724AAEE2 /* Pods_Sildish_MacOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,15 +369,92 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
-		5F1E165524D49FBC003816DA /* views */ = {
+		5F38D2EC24E48DA60095DE7A /* Sildish MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				5F38D34924E498B10095DE7A /* views */,
+				5F38D2ED24E48DA60095DE7A /* AppDelegate.swift */,
+				5F38D2F424E48DA60095DE7A /* Assets.xcassets */,
+				5F38D2F924E48DA60095DE7A /* Main.storyboard */,
+				5F38D2FC24E48DA60095DE7A /* Info.plist */,
+				5F38D2FD24E48DA60095DE7A /* Sildish_MacOS.entitlements */,
+				5F38D2F124E48DA60095DE7A /* Sildish_MacOS.xcdatamodeld */,
+				5F38D2F624E48DA60095DE7A /* Preview Content */,
+			);
+			path = "Sildish MacOS";
+			sourceTree = "<group>";
+		};
+		5F38D2F624E48DA60095DE7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5F38D2F724E48DA60095DE7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F38D30524E48DA60095DE7A /* Sildish MacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F38D30624E48DA60095DE7A /* Sildish_MacOSTests.swift */,
+				5F38D30824E48DA60095DE7A /* Info.plist */,
+			);
+			path = "Sildish MacOSTests";
+			sourceTree = "<group>";
+		};
+		5F38D31024E48DA60095DE7A /* Sildish MacOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F38D31124E48DA60095DE7A /* Sildish_MacOSUITests.swift */,
+				5F38D31324E48DA60095DE7A /* Info.plist */,
+			);
+			path = "Sildish MacOSUITests";
+			sourceTree = "<group>";
+		};
+		5F38D34624E497000095DE7A /* Sildish iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5F38D34824E498780095DE7A /* views */,
+				5FFEFFE924D3A0CA00BB89E1 /* AppDelegate.swift */,
+				5FFEFFEB24D3A0CA00BB89E1 /* SceneDelegate.swift */,
+				5FFEFFF224D3A0CC00BB89E1 /* Assets.xcassets */,
+				5FFEFFF724D3A0CC00BB89E1 /* LaunchScreen.storyboard */,
+				5FFEFFFA24D3A0CC00BB89E1 /* Info.plist */,
+				5FFEFFED24D3A0CA00BB89E1 /* sildish.xcdatamodeld */,
+			);
+			path = "Sildish iOS";
+			sourceTree = "<group>";
+		};
+		5F38D34724E4982C0095DE7A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5F0863FC24E0C65600FEFEBC /* audio */,
+				5F1E165024D491F6003816DA /* fonts */,
+				5F1E164D24D3ADB6003816DA /* model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5F38D34824E498780095DE7A /* views */ = {
 			isa = PBXGroup;
 			children = (
 				5FFEFFF024D3A0CA00BB89E1 /* ToolsView.swift */,
 				5F1E165324D49543003816DA /* PhonemeList.swift */,
-				5F1E165624D49FDF003816DA /* PhonemeDetail.swift */,
+				5F38D35424E4A9DF0095DE7A /* PhonemeDetail.swift */,
 				5F08643E24E0DC0400FEFEBC /* PlayIPAButton.swift */,
 				5F38D2AC24E37FFB0095DE7A /* TransliteratorView.swift */,
 				5F38D2AE24E449C50095DE7A /* SelectableText.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		5F38D34924E498B10095DE7A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				5F38D34C24E499EC0095DE7A /* ToolsView.swift */,
+				5F38D34D24E499EC0095DE7A /* PhonemeList.swift */,
+				5F1E165624D49FDF003816DA /* PhonemeDetail.swift */,
+				5F38D34E24E499EC0095DE7A /* PlayIPAButton.swift */,
+				5F38D34A24E499EC0095DE7A /* TransliteratorView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -286,9 +482,14 @@
 			isa = PBXGroup;
 			children = (
 				5F38D2B024E482430095DE7A /* README.md */,
+				5FFEFFF424D3A0CC00BB89E1 /* Preview Content */,
+				5F38D34624E497000095DE7A /* Sildish iOS */,
 				5FFEFFE824D3A0CA00BB89E1 /* Sildish */,
 				5FFE000224D3A0CC00BB89E1 /* SildishTests */,
 				5FFE000D24D3A0CC00BB89E1 /* SildishUITests */,
+				5F38D2EC24E48DA60095DE7A /* Sildish MacOS */,
+				5F38D30524E48DA60095DE7A /* Sildish MacOSTests */,
+				5F38D31024E48DA60095DE7A /* Sildish MacOSUITests */,
 				5FFEFFE724D3A0CA00BB89E1 /* Products */,
 				D0CD1163C998F8851FBFB806 /* Pods */,
 				36486B9155235F7B3E7CA375 /* Frameworks */,
@@ -301,6 +502,9 @@
 				5FFEFFE624D3A0CA00BB89E1 /* Sildish.app */,
 				5FFEFFFF24D3A0CC00BB89E1 /* sildishTests.xctest */,
 				5FFE000A24D3A0CC00BB89E1 /* sildishUITests.xctest */,
+				5F38D2EB24E48DA60095DE7A /* Sildish MacOS.app */,
+				5F38D30224E48DA60095DE7A /* Sildish MacOSTests.xctest */,
+				5F38D30D24E48DA60095DE7A /* Sildish MacOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -308,17 +512,7 @@
 		5FFEFFE824D3A0CA00BB89E1 /* Sildish */ = {
 			isa = PBXGroup;
 			children = (
-				5F0863FC24E0C65600FEFEBC /* audio */,
-				5F1E165524D49FBC003816DA /* views */,
-				5F1E165024D491F6003816DA /* fonts */,
-				5F1E164D24D3ADB6003816DA /* model */,
-				5FFEFFE924D3A0CA00BB89E1 /* AppDelegate.swift */,
-				5FFEFFEB24D3A0CA00BB89E1 /* SceneDelegate.swift */,
-				5FFEFFF224D3A0CC00BB89E1 /* Assets.xcassets */,
-				5FFEFFF724D3A0CC00BB89E1 /* LaunchScreen.storyboard */,
-				5FFEFFFA24D3A0CC00BB89E1 /* Info.plist */,
-				5FFEFFED24D3A0CA00BB89E1 /* sildish.xcdatamodeld */,
-				5FFEFFF424D3A0CC00BB89E1 /* Preview Content */,
+				5F38D34724E4982C0095DE7A /* Common */,
 			);
 			path = Sildish;
 			sourceTree = "<group>";
@@ -340,6 +534,12 @@
 				8B83EC5A0832552C34F3335B /* Pods-sildish-sildishUITests.release.xcconfig */,
 				D0E4D2553DB447B2DF4B1F28 /* Pods-sildishTests.debug.xcconfig */,
 				48107BA5560A7AB335066DCA /* Pods-sildishTests.release.xcconfig */,
+				7D200EDAD204E1616D287551 /* Pods-Sildish MacOS.debug.xcconfig */,
+				84F64B934F551FD1A227C6F0 /* Pods-Sildish MacOS.release.xcconfig */,
+				B6E9C6C30A14E8F3942B91FF /* Pods-Sildish MacOS-Sildish MacOSUITests.debug.xcconfig */,
+				4F4B81F1C395F908DBD7212E /* Pods-Sildish MacOS-Sildish MacOSUITests.release.xcconfig */,
+				E0308F869334D00BFE0C3FFF /* Pods-Sildish MacOSTests.debug.xcconfig */,
+				4CD72F313FE84DE474F2C5F5 /* Pods-Sildish MacOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -347,6 +547,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5F38D2EA24E48DA60095DE7A /* Sildish MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F38D31A24E48DA60095DE7A /* Build configuration list for PBXNativeTarget "Sildish MacOS" */;
+			buildPhases = (
+				B26875B7A583E393ECBF0C6D /* [CP] Check Pods Manifest.lock */,
+				5F38D2E724E48DA60095DE7A /* Sources */,
+				5F38D2E824E48DA60095DE7A /* Frameworks */,
+				5F38D2E924E48DA60095DE7A /* Resources */,
+				51BA2F6065F3F1CE0660355E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sildish MacOS";
+			productName = "Sildish MacOS";
+			productReference = 5F38D2EB24E48DA60095DE7A /* Sildish MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F38D30124E48DA60095DE7A /* Sildish MacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F38D31B24E48DA60095DE7A /* Build configuration list for PBXNativeTarget "Sildish MacOSTests" */;
+			buildPhases = (
+				477FF50476EE13529C56FE18 /* [CP] Check Pods Manifest.lock */,
+				5F38D2FE24E48DA60095DE7A /* Sources */,
+				5F38D2FF24E48DA60095DE7A /* Frameworks */,
+				5F38D30024E48DA60095DE7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F38D30424E48DA60095DE7A /* PBXTargetDependency */,
+			);
+			name = "Sildish MacOSTests";
+			productName = "Sildish MacOSTests";
+			productReference = 5F38D30224E48DA60095DE7A /* Sildish MacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F38D30C24E48DA60095DE7A /* Sildish MacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F38D31C24E48DA60095DE7A /* Build configuration list for PBXNativeTarget "Sildish MacOSUITests" */;
+			buildPhases = (
+				82041C7796DD42BCBF22484E /* [CP] Check Pods Manifest.lock */,
+				5F38D30924E48DA60095DE7A /* Sources */,
+				5F38D30A24E48DA60095DE7A /* Frameworks */,
+				5F38D30B24E48DA60095DE7A /* Resources */,
+				60B603A4B1FC1514D81D4DB8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F38D30F24E48DA60095DE7A /* PBXTargetDependency */,
+			);
+			name = "Sildish MacOSUITests";
+			productName = "Sildish MacOSUITests";
+			productReference = 5F38D30D24E48DA60095DE7A /* Sildish MacOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		5FFE000924D3A0CC00BB89E1 /* sildishUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FFE001924D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildishUITests" */;
@@ -415,6 +673,17 @@
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Todd L Smith";
 				TargetAttributes = {
+					5F38D2EA24E48DA60095DE7A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					5F38D30124E48DA60095DE7A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5F38D2EA24E48DA60095DE7A;
+					};
+					5F38D30C24E48DA60095DE7A = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5F38D2EA24E48DA60095DE7A;
+					};
 					5FFE000924D3A0CC00BB89E1 = {
 						CreatedOnToolsVersion = 11.6;
 						TestTargetID = 5FFEFFE524D3A0CA00BB89E1;
@@ -444,11 +713,70 @@
 				5FFEFFE524D3A0CA00BB89E1 /* sildish */,
 				5FFEFFFE24D3A0CC00BB89E1 /* sildishTests */,
 				5FFE000924D3A0CC00BB89E1 /* sildishUITests */,
+				5F38D2EA24E48DA60095DE7A /* Sildish MacOS */,
+				5F38D30124E48DA60095DE7A /* Sildish MacOSTests */,
+				5F38D30C24E48DA60095DE7A /* Sildish MacOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5F38D2E924E48DA60095DE7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F38D34324E491F00095DE7A /* z.mp3 in Resources */,
+				5F38D34424E491F00095DE7A /* l.mp3 in Resources */,
+				5F38D32D24E491F00095DE7A /* p.mp3 in Resources */,
+				5F38D32A24E491F00095DE7A /* u.mp3 in Resources */,
+				5F38D33524E491F00095DE7A /* ng.mp3 in Resources */,
+				5F38D33F24E491F00095DE7A /* o.mp3 in Resources */,
+				5F38D33A24E491F00095DE7A /* h.mp3 in Resources */,
+				5F38D33424E491F00095DE7A /* rh.mp3 in Resources */,
+				5F38D32824E491F00095DE7A /* w.mp3 in Resources */,
+				5F38D33924E491F00095DE7A /* dh.mp3 in Resources */,
+				5F38D32F24E491F00095DE7A /* f.mp3 in Resources */,
+				5F38D33E24E491F00095DE7A /* y.mp3 in Resources */,
+				5F38D34024E491F00095DE7A /* zh.mp3 in Resources */,
+				5F38D32624E491F00095DE7A /* a.mp3 in Resources */,
+				5F38D33C24E491F00095DE7A /* j.mp3 in Resources */,
+				5F38D32924E491F00095DE7A /* b.mp3 in Resources */,
+				5F38D32C24E491F00095DE7A /* c.mp3 in Resources */,
+				5F38D34524E491F50095DE7A /* Sildish-Regular.ttf in Resources */,
+				5F38D34224E491F00095DE7A /* ch.mp3 in Resources */,
+				5F38D33724E491F00095DE7A /* sh.mp3 in Resources */,
+				5F38D34124E491F00095DE7A /* m.mp3 in Resources */,
+				5F38D33224E491F00095DE7A /* d.mp3 in Resources */,
+				5F38D33824E491F00095DE7A /* r.mp3 in Resources */,
+				5F38D32E24E491F00095DE7A /* g.mp3 in Resources */,
+				5F38D33024E491F00095DE7A /* th.mp3 in Resources */,
+				5F38D32724E491F00095DE7A /* v.mp3 in Resources */,
+				5F38D33324E491F00095DE7A /* e.mp3 in Resources */,
+				5F38D2FB24E48DA60095DE7A /* Main.storyboard in Resources */,
+				5F38D33624E491F00095DE7A /* hw.mp3 in Resources */,
+				5F38D32B24E491F00095DE7A /* t.mp3 in Resources */,
+				5F38D33124E491F00095DE7A /* s.mp3 in Resources */,
+				5F38D33B24E491F00095DE7A /* i.mp3 in Resources */,
+				5F38D33D24E491F00095DE7A /* n.mp3 in Resources */,
+				5F38D2F824E48DA60095DE7A /* Preview Assets.xcassets in Resources */,
+				5F38D2F524E48DA60095DE7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F38D30024E48DA60095DE7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F38D30B24E48DA60095DE7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FFE000824D3A0CC00BB89E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -552,6 +880,84 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		477FF50476EE13529C56FE18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sildish MacOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51BA2F6065F3F1CE0660355E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sildish MacOS/Pods-Sildish MacOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sildish MacOS/Pods-Sildish MacOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sildish MacOS/Pods-Sildish MacOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B603A4B1FC1514D81D4DB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sildish MacOS-Sildish MacOSUITests/Pods-Sildish MacOS-Sildish MacOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sildish MacOS-Sildish MacOSUITests/Pods-Sildish MacOS-Sildish MacOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sildish MacOS-Sildish MacOSUITests/Pods-Sildish MacOS-Sildish MacOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82041C7796DD42BCBF22484E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sildish MacOS-Sildish MacOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9D054CD223AEB9F04FE35BE9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -591,6 +997,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B26875B7A583E393ECBF0C6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sildish MacOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E112376E85477E3044203396 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -611,6 +1039,39 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5F38D2E724E48DA60095DE7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F38D32324E491C60095DE7A /* SoundSystem.swift in Sources */,
+				5F38D2F324E48DA60095DE7A /* Sildish_MacOS.xcdatamodeld in Sources */,
+				5F38D34F24E499F60095DE7A /* ToolsView.swift in Sources */,
+				5F38D31F24E491C60095DE7A /* PhonemeDetail.swift in Sources */,
+				5F38D35024E499F60095DE7A /* PhonemeList.swift in Sources */,
+				5F38D2EE24E48DA60095DE7A /* AppDelegate.swift in Sources */,
+				5F38D32424E491C60095DE7A /* PrefixTree.swift in Sources */,
+				5F38D32524E491C60095DE7A /* Transliteration.swift in Sources */,
+				5F38D35224E499F60095DE7A /* TransliteratorView.swift in Sources */,
+				5F38D35124E499F60095DE7A /* PlayIPAButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F38D2FE24E48DA60095DE7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F38D30724E48DA60095DE7A /* Sildish_MacOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F38D30924E48DA60095DE7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F38D31224E48DA60095DE7A /* Sildish_MacOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5FFE000624D3A0CC00BB89E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -628,7 +1089,7 @@
 				5FFEFFEF24D3A0CA00BB89E1 /* sildish.xcdatamodeld in Sources */,
 				5F929F7E24DF2419007F4989 /* PrefixTree.swift in Sources */,
 				5F38D2AF24E449C50095DE7A /* SelectableText.swift in Sources */,
-				5F1E165724D49FDF003816DA /* PhonemeDetail.swift in Sources */,
+				5F38D35524E4A9DF0095DE7A /* PhonemeDetail.swift in Sources */,
 				5F08644124E0E8CC00FEFEBC /* Transliteration.swift in Sources */,
 				5F38D2AD24E37FFB0095DE7A /* TransliteratorView.swift in Sources */,
 				5FFEFFEA24D3A0CA00BB89E1 /* AppDelegate.swift in Sources */,
@@ -650,6 +1111,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5F38D30424E48DA60095DE7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F38D2EA24E48DA60095DE7A /* Sildish MacOS */;
+			targetProxy = 5F38D30324E48DA60095DE7A /* PBXContainerItemProxy */;
+		};
+		5F38D30F24E48DA60095DE7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F38D2EA24E48DA60095DE7A /* Sildish MacOS */;
+			targetProxy = 5F38D30E24E48DA60095DE7A /* PBXContainerItemProxy */;
+		};
 		5FFE000124D3A0CC00BB89E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5FFEFFE524D3A0CA00BB89E1 /* sildish */;
@@ -663,6 +1134,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5F38D2F924E48DA60095DE7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F38D2FA24E48DA60095DE7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		5FFEFFF724D3A0CC00BB89E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -674,6 +1153,150 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5F38D31424E48DA60095DE7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D200EDAD204E1616D287551 /* Pods-Sildish MacOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sildish MacOS/Sildish_MacOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Sildish MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sildish MacOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.elushae.Sildish-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5F38D31524E48DA60095DE7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F64B934F551FD1A227C6F0 /* Pods-Sildish MacOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sildish MacOS/Sildish_MacOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Sildish MacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sildish MacOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.elushae.Sildish-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5F38D31624E48DA60095DE7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0308F869334D00BFE0C3FFF /* Pods-Sildish MacOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				INFOPLIST_FILE = "Sildish MacOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.elushae.Sildish-MacOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sildish MacOS.app/Contents/MacOS/Sildish MacOS";
+			};
+			name = Debug;
+		};
+		5F38D31724E48DA60095DE7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD72F313FE84DE474F2C5F5 /* Pods-Sildish MacOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				INFOPLIST_FILE = "Sildish MacOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.elushae.Sildish-MacOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sildish MacOS.app/Contents/MacOS/Sildish MacOS";
+			};
+			name = Release;
+		};
+		5F38D31824E48DA60095DE7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E9C6C30A14E8F3942B91FF /* Pods-Sildish MacOS-Sildish MacOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				INFOPLIST_FILE = "Sildish MacOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.elushae.Sildish-MacOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sildish MacOS";
+			};
+			name = Debug;
+		};
+		5F38D31924E48DA60095DE7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4B81F1C395F908DBD7212E /* Pods-Sildish MacOS-Sildish MacOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U77H4N95BZ;
+				INFOPLIST_FILE = "Sildish MacOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.elushae.Sildish-MacOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sildish MacOS";
+			};
+			name = Release;
+		};
 		5FFE001124D3A0CC00BB89E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -794,11 +1417,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"sildish/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = U77H4N95BZ;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = sildish/Info.plist;
+				INFOPLIST_FILE = "Sildish iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -817,11 +1440,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"sildish/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = U77H4N95BZ;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_TESTABILITY = NO;
-				INFOPLIST_FILE = sildish/Info.plist;
+				INFOPLIST_FILE = "Sildish iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -838,7 +1461,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0E4D2553DB447B2DF4B1F28 /* Pods-sildishTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U77H4N95BZ;
@@ -861,7 +1484,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48107BA5560A7AB335066DCA /* Pods-sildishTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U77H4N95BZ;
@@ -884,7 +1507,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E10A600D046443646682C260 /* Pods-sildish-sildishUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U77H4N95BZ;
 				INFOPLIST_FILE = sildishUITests/Info.plist;
@@ -905,7 +1528,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B83EC5A0832552C34F3335B /* Pods-sildish-sildishUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U77H4N95BZ;
 				INFOPLIST_FILE = sildishUITests/Info.plist;
@@ -925,6 +1548,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5F38D31A24E48DA60095DE7A /* Build configuration list for PBXNativeTarget "Sildish MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F38D31424E48DA60095DE7A /* Debug */,
+				5F38D31524E48DA60095DE7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F38D31B24E48DA60095DE7A /* Build configuration list for PBXNativeTarget "Sildish MacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F38D31624E48DA60095DE7A /* Debug */,
+				5F38D31724E48DA60095DE7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F38D31C24E48DA60095DE7A /* Build configuration list for PBXNativeTarget "Sildish MacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F38D31824E48DA60095DE7A /* Debug */,
+				5F38D31924E48DA60095DE7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5FFE001324D3A0CC00BB89E1 /* Build configuration list for PBXNativeTarget "sildish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -964,6 +1614,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		5F38D2F124E48DA60095DE7A /* Sildish_MacOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F38D2F224E48DA60095DE7A /* Sildish_MacOS.xcdatamodel */,
+			);
+			currentVersion = 5F38D2F224E48DA60095DE7A /* Sildish_MacOS.xcdatamodel */;
+			path = Sildish_MacOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		5FFEFFED24D3A0CA00BB89E1 /* sildish.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

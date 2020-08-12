@@ -1,7 +1,7 @@
 #  Sildish
 
 Sildish language utilities, originally prototyped in Avail for rapid development, now ported to
-iOS for convenient use.
+iOS and macOS for convenient use.
 
 The app presents a collection of tools, currently comprising:
 

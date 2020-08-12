@@ -1,0 +1,6 @@
+framework module Pods_Sildish_MacOSTests {
+  umbrella header "Pods-Sildish MacOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

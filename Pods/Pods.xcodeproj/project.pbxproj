@@ -3,114 +3,198 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04516B10D23612F1EF169D07F5E5D412 /* AppKitIntrospectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEB0B7659B3CBF3514D1FC9567D4F80 /* AppKitIntrospectionView.swift */; };
-		1DA6DFDB8A9650C0F88A7B6F8EC7349E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1F34B1BFCC4159735B2A6BA1AA244E7B /* Pods-sildishTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F39284B5EC167AF2F54734C1CC5F0F9 /* Pods-sildishTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26A76676C1314B46DF5F1F1313ABE2F4 /* Introspect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F97B7DBE7B5E51378241115EFD843 /* Introspect.swift */; };
-		6E0AAF8EAE75EFC775D2CDD64E61B426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		83D40C72C1D21D47E1BA462B8B65E8F8 /* Pods-sildishTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDAC704EDD6FC8BB34E70D05828A639 /* Pods-sildishTests-dummy.m */; };
-		887CFB1827660510FDD71526E52DD586 /* Pods-sildish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3522BA77EDB213AF41BF5BF58435E01 /* Pods-sildish-dummy.m */; };
-		A4F29538A2E84063A7ABA484FB255AA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A8B0DC12BE200007F9EB2D65531A84CA /* UIKitIntrospectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD39E502C826E5A7C5BAF30974FAEBB /* UIKitIntrospectionView.swift */; };
-		BC63B865E99036CACA36C86BB0753763 /* Pods-sildish-sildishUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3DC16D37025F69A4BC10B2794D8C75 /* Pods-sildish-sildishUITests-dummy.m */; };
-		C6E0E84066D696FA0B37DFA0210BDFCC /* Pods-sildish-sildishUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9065257947EF058B94C6E8809D641E3C /* Pods-sildish-sildishUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB485DF96B843B0720B142CE227F4274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CBBB3C3152D4C6E2F661C3E5E813147C /* Introspect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6C185AFAF683A8F8152324DD89EEDF /* Introspect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8DE7403B046571663D236C6905B4E52 /* UIKitIntrospectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8642AA28CFA4B0B137E3325D9FC24B36 /* UIKitIntrospectionViewController.swift */; };
-		DE9FE1FE2E7B9C17B1FB97C6E613DFF2 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519D1DDA6EB4B5EE3D38A3A0A7649DC /* ViewExtensions.swift */; };
-		F5F350C504EB9D878FC47814EB03380D /* Pods-sildish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30770AB171A019541027EB4C0D3591FA /* Pods-sildish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEE53BB666EC19D440243E6ED59F33CC /* Introspect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7133B45DB27B49E3F6A06E50B650D08 /* Introspect-dummy.m */; };
+		06EEEBDFBCEC2C2EDB376BFB13BBD897 /* UIKitIntrospectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DB45968907362862BB5048E290B1A /* UIKitIntrospectionView.swift */; };
+		1C6F66152490B70A5D2578964FB1EDE6 /* Pods-Sildish MacOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E71E7D69139D33DA39F3652FFC826D5 /* Pods-Sildish MacOS-dummy.m */; };
+		1F34B1BFCC4159735B2A6BA1AA244E7B /* Pods-sildishTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EC495BB47F939CA12C5C2B8691B4AF /* Pods-sildishTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3260B39BD1536A1433568DFA84E89B88 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE90E0D77214780DF36A56279E1D15 /* ViewExtensions.swift */; };
+		45DE5DAE6D5001D29F0A9A6E213EB0C8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */; };
+		4799D5F922E46C12A7D95B144E5B317C /* UIKitIntrospectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F499407CB8FDF8FFE599B15279856E /* UIKitIntrospectionViewController.swift */; };
+		5C79051E2F060DCE206E1232D4FECE6F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */; };
+		5F6D1B7FBCCFD1BDD2584E587D096C13 /* Pods-sildish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B842791ADAB47549057741B89913BC8D /* Pods-sildish-dummy.m */; };
+		61075055D59B9AEFACCB9207CC6F1E6E /* Introspect-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F024E5F619C8A10AEC31C0A525BD1DCC /* Introspect-macOS-dummy.m */; };
+		6B18368CE76575B9BF945DF4750459E8 /* Pods-sildish-sildishUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA242C9DE7A65FFD3420ED14FEA2C554 /* Pods-sildish-sildishUITests-dummy.m */; };
+		6E0AAF8EAE75EFC775D2CDD64E61B426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF078200D3CDAD0F3FB03ED9391A7F0 /* Foundation.framework */; };
+		70295AB81BCCBFFED439E743DDC424C3 /* Introspect-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B15DCA90B8F0DBC1E5BCA4CCF9B6E395 /* Introspect-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F35C7B8BDAA86E9D76C0B36E5B5DE0 /* AppKitIntrospectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BAB817928C95E0DE443616EE44486 /* AppKitIntrospectionView.swift */; };
+		7BF884983872F306C1BA8AEAC917887E /* Pods-Sildish MacOS-Sildish MacOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FE23FCB5F6C1B2B165D62A538D0CA3 /* Pods-Sildish MacOS-Sildish MacOSUITests-dummy.m */; };
+		8126CC65983E9206B9C6469A5A1BC01A /* UIKitIntrospectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F499407CB8FDF8FFE599B15279856E /* UIKitIntrospectionViewController.swift */; };
+		83D40C72C1D21D47E1BA462B8B65E8F8 /* Pods-sildishTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B0823517689CF3D8FA23F4A2FD87EC /* Pods-sildishTests-dummy.m */; };
+		86A8863C9980E9A4CAD09604F396584A /* Introspect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1436A5D14091E24B0D7FD16333C6FB8F /* Introspect.swift */; };
+		883B9135A0FB875EB09EF000099041DF /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE90E0D77214780DF36A56279E1D15 /* ViewExtensions.swift */; };
+		909CD44D18B56C30CFC25F8AED3CDA65 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */; };
+		99B646074F17202FF9464EF248FDC511 /* Pods-Sildish MacOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFC267FAF1D0170BD6279E54BBFA92E /* Pods-Sildish MacOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A46D3DB8734CC2D7717759D6F102CB5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF078200D3CDAD0F3FB03ED9391A7F0 /* Foundation.framework */; };
+		A5FC68E5976CF93B0BA48F01D84F8F04 /* Introspect-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BBDC0558EDF9B922DB3A5611C0E6081 /* Introspect-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFE47A1DA5DAD6FC3ACF38A520DB9F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF078200D3CDAD0F3FB03ED9391A7F0 /* Foundation.framework */; };
+		B1AF548EB6A7BD1C81F3205DDFCFC1A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */; };
+		B1F8FAA2B1C8ADFEC3DC570F65F32CFB /* UIKitIntrospectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360DB45968907362862BB5048E290B1A /* UIKitIntrospectionView.swift */; };
+		B474412FD52E8731ADA7501000FF95CF /* Pods-Sildish MacOS-Sildish MacOSUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A131B1C7E7EC5650FDA538522BDFCB8B /* Pods-Sildish MacOS-Sildish MacOSUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCD668F8E3DB4CEB388C19DDE3B520CE /* Pods-sildish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE70A726DA1C2667C1F9BABF91E7F287 /* Pods-sildish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6A3C312F18F5346A0EA6574A9BED22 /* Introspect-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA94D66F2C8524B57BF1C3DB8DC663E2 /* Introspect-iOS-dummy.m */; };
+		E67CDABA8BA97B17CB2011D099C7D785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF078200D3CDAD0F3FB03ED9391A7F0 /* Foundation.framework */; };
+		E6DAFE2252281ADFFAB11983320A238C /* Pods-sildish-sildishUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DFB39F3B52E16EAD4506C4E420AFC4 /* Pods-sildish-sildishUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F67F8489EFDACDA640C8255147D71ECF /* Introspect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1436A5D14091E24B0D7FD16333C6FB8F /* Introspect.swift */; };
+		F69EFD7AD6E33C85126B3690A1DEEDE0 /* Pods-Sildish MacOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B9D85D5700D96E9CF4BD6A2C9CCF7C /* Pods-Sildish MacOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB5FDAB3C8ABFAFDED828BE28DE98E18 /* Pods-Sildish MacOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EB70B7572CD19EC876F99FBB9DCE2A /* Pods-Sildish MacOSTests-dummy.m */; };
+		FDD2BA5FCE3B25D9527C995CFC82C460 /* AppKitIntrospectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BAB817928C95E0DE443616EE44486 /* AppKitIntrospectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52E2AC18CADE579F444F24F660D3F1C1 /* PBXContainerItemProxy */ = {
+		1D7817B89937E045E0FDDD6623D56C36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 97E3685499568DCCBA6C15905F707BDC;
-			remoteInfo = Introspect;
+			remoteGlobalIDString = 2CD967017FD20AB382B529A1256D54C1;
+			remoteInfo = "Introspect-iOS";
 		};
-		8A46907758B77252FF2675C93B8832BA /* PBXContainerItemProxy */ = {
+		41C9AAA087D485BA7058144DB638660C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8694901FD224136208332DE031E6245F;
+			remoteInfo = "Pods-Sildish MacOS";
+		};
+		5D0344C2F8774BBD9820C479D2DEA8CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD967017FD20AB382B529A1256D54C1;
+			remoteInfo = "Introspect-iOS";
+		};
+		69CA5BD15C4E8DD97474EF5BCACFFCD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A9D4FFCF791FC1555F5D39B391EB33;
+			remoteInfo = "Introspect-macOS";
+		};
+		D1CD7CC8EF9227BF949339C46EAD9A41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E3D770CDFFEA479ADDC5D3B1C2262808;
 			remoteInfo = "Pods-sildish";
 		};
-		B132E7A38BC4A3956047F58C99F6D2A9 /* PBXContainerItemProxy */ = {
+		DAE22A50F233411DADA89F7E19AAD989 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 97E3685499568DCCBA6C15905F707BDC;
-			remoteInfo = Introspect;
+			remoteGlobalIDString = 12A9D4FFCF791FC1555F5D39B391EB33;
+			remoteInfo = "Introspect-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D58A0724421A594B99B814A9126D8E /* Pods-sildishTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sildishTests.modulemap"; sourceTree = "<group>"; };
-		0B196AFE2ABFBCCB2351722E505ADC40 /* Pods-sildish-sildishUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildish-sildishUITests-Info.plist"; sourceTree = "<group>"; };
-		0B22AFC776813ED1B826FCC1B5643BB5 /* Pods-sildish-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildish-Info.plist"; sourceTree = "<group>"; };
-		0E3DC16D37025F69A4BC10B2794D8C75 /* Pods-sildish-sildishUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sildish-sildishUITests-dummy.m"; sourceTree = "<group>"; };
-		1A73E3BD12498F27353DA831E4490BDC /* Pods-sildishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildishTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1B6C185AFAF683A8F8152324DD89EEDF /* Introspect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Introspect-umbrella.h"; sourceTree = "<group>"; };
-		1FEB0B7659B3CBF3514D1FC9567D4F80 /* AppKitIntrospectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppKitIntrospectionView.swift; path = Introspect/AppKitIntrospectionView.swift; sourceTree = "<group>"; };
-		2469B9954DFD6DFF49C6C3BDA116C7D7 /* Pods-sildish-sildishUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sildish-sildishUITests.modulemap"; sourceTree = "<group>"; };
-		2BDACD1B99D6449959AC71DB8A67619A /* Pods-sildishTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildishTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2CF50E6422354DAD70282F392BD55F39 /* Pods-sildish-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildish-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D5731D2F1971963EC7CAADC23D18A6C /* Pods-sildish-sildishUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildish-sildishUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E2F1B5E834E69E109447620BDAF58ED /* Pods-sildishTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sildishTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2FD39E502C826E5A7C5BAF30974FAEBB /* UIKitIntrospectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitIntrospectionView.swift; path = Introspect/UIKitIntrospectionView.swift; sourceTree = "<group>"; };
-		30770AB171A019541027EB4C0D3591FA /* Pods-sildish-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sildish-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3B8909E359214830525C912BA6566117 /* Pods_sildishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sildishTests.framework; path = "Pods-sildishTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CC5B3F41DE28BDF480B6E45125D0028 /* Pods_sildish_sildishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sildish_sildishUITests.framework; path = "Pods-sildish-sildishUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DF18865B218BCE5D62D0C436F575AFE /* Introspect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Introspect-prefix.pch"; sourceTree = "<group>"; };
-		6378BECF4EA61D8B21153A3A0D4E4181 /* Pods-sildishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildishTests.release.xcconfig"; sourceTree = "<group>"; };
-		6519D1DDA6EB4B5EE3D38A3A0A7649DC /* ViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewExtensions.swift; path = Introspect/ViewExtensions.swift; sourceTree = "<group>"; };
-		6846173765F35FFB8CCBCA5C943895A4 /* Pods_sildish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_sildish.framework; path = "Pods-sildish.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		698161172D92BD9955D77C9C14A117AC /* Pods-sildish-sildishUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sildish-sildishUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F39284B5EC167AF2F54734C1CC5F0F9 /* Pods-sildishTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sildishTests-umbrella.h"; sourceTree = "<group>"; };
-		747EF85C5685E661D5410FA2FE5D49C8 /* Pods-sildish-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sildish-frameworks.sh"; sourceTree = "<group>"; };
-		75DBF0240AED40A74BC291E2F4111BDE /* Pods-sildishTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildishTests-Info.plist"; sourceTree = "<group>"; };
-		7CF716AA694C64847CE385F4FB75F3EB /* Pods-sildish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildish.debug.xcconfig"; sourceTree = "<group>"; };
-		7FA8350B21394CC67B4C811628A647AB /* Introspect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Introspect.release.xcconfig; sourceTree = "<group>"; };
-		8642AA28CFA4B0B137E3325D9FC24B36 /* UIKitIntrospectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitIntrospectionViewController.swift; path = Introspect/UIKitIntrospectionViewController.swift; sourceTree = "<group>"; };
-		9065257947EF058B94C6E8809D641E3C /* Pods-sildish-sildishUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sildish-sildishUITests-umbrella.h"; sourceTree = "<group>"; };
-		9B9D78F7523137929D2A7F37F39F3BD1 /* Pods-sildish-sildishUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sildish-sildishUITests-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7133B45DB27B49E3F6A06E50B650D08 /* Introspect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Introspect-dummy.m"; sourceTree = "<group>"; };
-		ADDAC704EDD6FC8BB34E70D05828A639 /* Pods-sildishTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sildishTests-dummy.m"; sourceTree = "<group>"; };
-		B34741DF9F4146A037C115B50209B9D2 /* Pods-sildish-sildishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildish-sildishUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BCCEA317758706C8EFE21530D31AC3E0 /* Pods-sildish.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sildish.modulemap"; sourceTree = "<group>"; };
-		BE7C428CEA9E417E4BC3C07D811169F7 /* Pods-sildish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildish.release.xcconfig"; sourceTree = "<group>"; };
-		C16A57B7BAC12B839B47B64EA86CB745 /* Introspect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Introspect-Info.plist"; sourceTree = "<group>"; };
-		C6935A6B76A1F3ACA7781AE41385A149 /* Introspect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Introspect.modulemap; sourceTree = "<group>"; };
-		D017F6EC58744CED78D84780A95166E1 /* Pods-sildish-sildishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildish-sildishUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D0A70003FD5E49B30CA83DAAFE03116B /* Introspect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Introspect.framework; path = Introspect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1119A951EC43052081C7A9A0544F754 /* Introspect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Introspect.debug.xcconfig; sourceTree = "<group>"; };
-		E28CC3C0495C329F8D26BF59D1517BB3 /* Pods-sildish-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sildish-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E3522BA77EDB213AF41BF5BF58435E01 /* Pods-sildish-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sildish-dummy.m"; sourceTree = "<group>"; };
-		EE9F97B7DBE7B5E51378241115EFD843 /* Introspect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Introspect.swift; path = Introspect/Introspect.swift; sourceTree = "<group>"; };
+		0128B8204159042B850B29A00C855260 /* Pods-sildish-sildishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildish-sildishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		05B5EEA0F3BC491E03632649635BA321 /* Pods-sildish-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sildish-frameworks.sh"; sourceTree = "<group>"; };
+		07CE90E0D77214780DF36A56279E1D15 /* ViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewExtensions.swift; path = Introspect/ViewExtensions.swift; sourceTree = "<group>"; };
+		11DD541BD1EF2DB878C6378E14D60298 /* Pods-sildish-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildish-acknowledgements.plist"; sourceTree = "<group>"; };
+		1436A5D14091E24B0D7FD16333C6FB8F /* Introspect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Introspect.swift; path = Introspect/Introspect.swift; sourceTree = "<group>"; };
+		14565ACBB15C0D87FE22AF155F2A5D8A /* Introspect-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Introspect-iOS-Info.plist"; sourceTree = "<group>"; };
+		2004A921928AB078CED7188976E27837 /* Pods-sildish-sildishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildish-sildishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		219213AE35EEAECC93A6F906CE09757B /* Pods_Sildish_MacOS_Sildish_MacOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sildish_MacOS_Sildish_MacOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B0823517689CF3D8FA23F4A2FD87EC /* Pods-sildishTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sildishTests-dummy.m"; sourceTree = "<group>"; };
+		26E39FCD3172BCB0DA2859C259F39950 /* Pods-sildishTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildishTests-Info.plist"; sourceTree = "<group>"; };
+		2B3D164CD957F599B9EAB34888D79CF7 /* Pods-Sildish MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sildish MacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2EB96B978E05FFD5DAE506E28936E02C /* Introspect-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Introspect-macOS.modulemap"; path = "../Introspect-macOS/Introspect-macOS.modulemap"; sourceTree = "<group>"; };
+		2EBC9F08638A68003FF3FA2B0404335B /* Pods-Sildish MacOS-Sildish MacOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sildish MacOS-Sildish MacOSUITests-frameworks.sh"; sourceTree = "<group>"; };
+		30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		31B14EC99B635546ABB4B703B7DB90D0 /* Pods-sildish-sildishUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sildish-sildishUITests-frameworks.sh"; sourceTree = "<group>"; };
+		360DB45968907362862BB5048E290B1A /* UIKitIntrospectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitIntrospectionView.swift; path = Introspect/UIKitIntrospectionView.swift; sourceTree = "<group>"; };
+		3B8909E359214830525C912BA6566117 /* Pods_sildishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sildishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC5B3F41DE28BDF480B6E45125D0028 /* Pods_sildish_sildishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sildish_sildishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E71E7D69139D33DA39F3652FFC826D5 /* Pods-Sildish MacOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sildish MacOS-dummy.m"; sourceTree = "<group>"; };
+		3FC86A1111592BFF328E8C81C2E4DECC /* Pods-sildishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildishTests.release.xcconfig"; sourceTree = "<group>"; };
+		4113F49E37DAF90C55DD3F69D12A0D86 /* Pods-Sildish MacOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sildish MacOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		41B9D85D5700D96E9CF4BD6A2C9CCF7C /* Pods-Sildish MacOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sildish MacOSTests-umbrella.h"; sourceTree = "<group>"; };
+		44FD982E937F0DB6B2E37BC87A67EA57 /* Pods-sildish-sildishUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildish-sildishUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		49DB130127D90948B972148C063B8F89 /* Introspect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Introspect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5347A41804BBEA43CB98D91DB9101547 /* Pods-Sildish MacOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sildish MacOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		535394ADE3CC0A26771EF596D7238A10 /* Pods-Sildish MacOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sildish MacOSTests.modulemap"; sourceTree = "<group>"; };
+		584924FA11F699AB62CB7FE35F0C25C9 /* Pods-Sildish MacOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sildish MacOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59DFB39F3B52E16EAD4506C4E420AFC4 /* Pods-sildish-sildishUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sildish-sildishUITests-umbrella.h"; sourceTree = "<group>"; };
+		5BBDC0558EDF9B922DB3A5611C0E6081 /* Introspect-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Introspect-iOS-umbrella.h"; sourceTree = "<group>"; };
+		5C620735ADEA107EA5E124AF5D94D901 /* Pods-sildish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildish.release.xcconfig"; sourceTree = "<group>"; };
+		5D297B249249960607EC36172649192B /* Pods-sildishTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sildishTests.modulemap"; sourceTree = "<group>"; };
+		61803044013D06698774832F1CA2EBF4 /* Pods-sildish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildish.debug.xcconfig"; sourceTree = "<group>"; };
+		637799B6F33A157F1E0E4ABD4DB33B26 /* Pods-Sildish MacOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sildish MacOS-Info.plist"; sourceTree = "<group>"; };
+		6783B3F7BDFD66C7C7DD4E1E48DD28B7 /* Pods-sildish-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sildish-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6846173765F35FFB8CCBCA5C943895A4 /* Pods_sildish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sildish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6964B7EB3C6B12C8DF13FA46ABCBA7A5 /* Pods-sildishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sildishTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A481AD91AEBF1BBA5AF6086037A96D3 /* Pods-sildish-sildishUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildish-sildishUITests-Info.plist"; sourceTree = "<group>"; };
+		7016F3A0A7A5E7AF77443CCAD76E8E4F /* Pods-Sildish MacOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sildish MacOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		71BA1BE295DF6A8D158888F6E70EBD96 /* Pods-Sildish MacOS-Sildish MacOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sildish MacOS-Sildish MacOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76FE23FCB5F6C1B2B165D62A538D0CA3 /* Pods-Sildish MacOS-Sildish MacOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sildish MacOS-Sildish MacOSUITests-dummy.m"; sourceTree = "<group>"; };
+		772FE2EB959BDB9A52647087C2DDB5B2 /* Pods-Sildish MacOS-Sildish MacOSUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sildish MacOS-Sildish MacOSUITests-Info.plist"; sourceTree = "<group>"; };
+		805E897C119C516CED78052387ED0FF1 /* Pods-sildish-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildish-Info.plist"; sourceTree = "<group>"; };
+		80EB70B7572CD19EC876F99FBB9DCE2A /* Pods-Sildish MacOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sildish MacOSTests-dummy.m"; sourceTree = "<group>"; };
+		80FA21AB1772C564D5A6A4846B011D15 /* Pods-Sildish MacOS-Sildish MacOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sildish MacOS-Sildish MacOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		810D40038AB56F978EE4623A46137AB4 /* Pods-Sildish MacOS-Sildish MacOSUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sildish MacOS-Sildish MacOSUITests.modulemap"; sourceTree = "<group>"; };
+		82AA7AA3681726A03534014BA9245BD4 /* Introspect-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Introspect-macOS-Info.plist"; path = "../Introspect-macOS/Introspect-macOS-Info.plist"; sourceTree = "<group>"; };
+		84D5EA69E0C9B96390232E131F71C5D2 /* Pods-sildish-sildishUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sildish-sildishUITests.modulemap"; sourceTree = "<group>"; };
+		86B6E843FAC7954701B2EF88FD5A5E53 /* Pods-Sildish MacOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sildish MacOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98BA95EB73CB4225E3796BC096DAC3A2 /* Pods-sildishTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sildishTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9AD9E594736CDB4E6772994CBD77EEBB /* Introspect-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Introspect-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A131B1C7E7EC5650FDA538522BDFCB8B /* Pods-Sildish MacOS-Sildish MacOSUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sildish MacOS-Sildish MacOSUITests-umbrella.h"; sourceTree = "<group>"; };
+		AC1BAB817928C95E0DE443616EE44486 /* AppKitIntrospectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppKitIntrospectionView.swift; path = Introspect/AppKitIntrospectionView.swift; sourceTree = "<group>"; };
+		B15DCA90B8F0DBC1E5BCA4CCF9B6E395 /* Introspect-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Introspect-macOS-umbrella.h"; path = "../Introspect-macOS/Introspect-macOS-umbrella.h"; sourceTree = "<group>"; };
+		B18D71BBD2C87EC300EE07FAACE88C0A /* Introspect-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Introspect-iOS.modulemap"; sourceTree = "<group>"; };
+		B52EA3F05F1E8C3204D93F638A6FAD62 /* Pods-sildish.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sildish.modulemap"; sourceTree = "<group>"; };
+		B5EC495BB47F939CA12C5C2B8691B4AF /* Pods-sildishTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sildishTests-umbrella.h"; sourceTree = "<group>"; };
+		B7BE13B61A365C4A857C5590E2F2073C /* Pods-Sildish MacOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sildish MacOSTests-Info.plist"; sourceTree = "<group>"; };
+		B842791ADAB47549057741B89913BC8D /* Pods-sildish-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sildish-dummy.m"; sourceTree = "<group>"; };
+		BE4BFBF3611FD9CBE84DD71884C1E398 /* Introspect-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Introspect-macOS.release.xcconfig"; path = "../Introspect-macOS/Introspect-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		C12450C7EE46974D93E6940093051CCA /* Pods-sildish-sildishUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sildish-sildishUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3166D859DC822258083CF9E2999AAA5 /* Pods_Sildish_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sildish_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C461480F642B09F71CC15F6FE359D988 /* Introspect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Introspect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F499407CB8FDF8FFE599B15279856E /* UIKitIntrospectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitIntrospectionViewController.swift; path = Introspect/UIKitIntrospectionViewController.swift; sourceTree = "<group>"; };
+		CA242C9DE7A65FFD3420ED14FEA2C554 /* Pods-sildish-sildishUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sildish-sildishUITests-dummy.m"; sourceTree = "<group>"; };
+		CAF078200D3CDAD0F3FB03ED9391A7F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB06611DA0FBCF5B564B6BD0458EC048 /* Pods-Sildish MacOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sildish MacOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD933F602E0B3EA98C2C65820AB02D28 /* Pods-sildishTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sildishTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D36B683EBBE5EF12AB41913C0F3850BC /* Pods-Sildish MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sildish MacOS.release.xcconfig"; sourceTree = "<group>"; };
+		D4D457A901E12F7964A0A977E2BD31A6 /* Introspect-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Introspect-iOS-prefix.pch"; sourceTree = "<group>"; };
+		D692DFB7245B58FFB0B8FC11D0465695 /* Introspect-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Introspect-macOS-prefix.pch"; path = "../Introspect-macOS/Introspect-macOS-prefix.pch"; sourceTree = "<group>"; };
+		D726A814A07C48DADF982696010BA174 /* Pods-Sildish MacOS-Sildish MacOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sildish MacOS-Sildish MacOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DBFC267FAF1D0170BD6279E54BBFA92E /* Pods-Sildish MacOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sildish MacOS-umbrella.h"; sourceTree = "<group>"; };
+		DFBBBD9067F51E0C30BCAA82DF7E84D4 /* Pods-Sildish MacOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sildish MacOS-frameworks.sh"; sourceTree = "<group>"; };
+		E4C34125E524201F013581857FA87DC8 /* Pods-Sildish MacOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sildish MacOS.modulemap"; sourceTree = "<group>"; };
+		E77B3EB6CFBAE74E86A07CE940469E94 /* Pods-Sildish MacOS-Sildish MacOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sildish MacOS-Sildish MacOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA94D66F2C8524B57BF1C3DB8DC663E2 /* Introspect-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Introspect-iOS-dummy.m"; sourceTree = "<group>"; };
+		EE70A726DA1C2667C1F9BABF91E7F287 /* Pods-sildish-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sildish-umbrella.h"; sourceTree = "<group>"; };
+		F024E5F619C8A10AEC31C0A525BD1DCC /* Introspect-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Introspect-macOS-dummy.m"; path = "../Introspect-macOS/Introspect-macOS-dummy.m"; sourceTree = "<group>"; };
+		F2E1BFFD62C00BCE1D0B09E88C8B847E /* Pods_Sildish_MacOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sildish_MacOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC70929EAF01F7C8C209DCD1BED0D5BD /* Introspect-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Introspect-macOS.debug.xcconfig"; path = "../Introspect-macOS/Introspect-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FFEC17DD753A695953F9F469C740231C /* Introspect-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Introspect-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31FA779C2E2C1439F386AC99AEC8D9FC /* Frameworks */ = {
+		44CB654051F7C87525518ED90491E623 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB485DF96B843B0720B142CE227F4274 /* Foundation.framework in Frameworks */,
+				AFE47A1DA5DAD6FC3ACF38A520DB9F0F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B18470EEFAB8B8D8177320A9484B1D0 /* Frameworks */ = {
+		4A1F080D40928FBB5848F1558CA970FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DA6DFDB8A9650C0F88A7B6F8EC7349E /* Foundation.framework in Frameworks */,
+				45DE5DAE6D5001D29F0A9A6E213EB0C8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E6F5DCB787713C0DB681D375F529FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AF548EB6A7BD1C81F3205DDFCFC1A4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,147 +206,243 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB9B8939004B0ADC11C73FD23595658B /* Frameworks */ = {
+		A9A26E8444D6FE9697310383B6FC62FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F29538A2E84063A7ABA484FB255AA8 /* Foundation.framework in Frameworks */,
+				E67CDABA8BA97B17CB2011D099C7D785 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9E9CF1BD4586C97E84A1E258344D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909CD44D18B56C30CFC25F8AED3CDA65 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD0C898E12033216EDF03DB3862DA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C79051E2F060DCE206E1232D4FECE6F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9982D620BE8C876456B518347C77644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46D3DB8734CC2D7717759D6F102CB5C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A3DEA1D54F023A0B7026F81DD5DA4D6 /* Targets Support Files */ = {
+		09B2D658523465F6C6E42F5940362660 /* Pods-Sildish MacOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				C41452D93B2C854440A5A07B5974B2CF /* Pods-sildish */,
-				9B14AEDE4395D08E7B49012246497CA0 /* Pods-sildish-sildishUITests */,
-				E81E8AD050195A5AE69DF963174C80C1 /* Pods-sildishTests */,
+				535394ADE3CC0A26771EF596D7238A10 /* Pods-Sildish MacOSTests.modulemap */,
+				CB06611DA0FBCF5B564B6BD0458EC048 /* Pods-Sildish MacOSTests-acknowledgements.markdown */,
+				7016F3A0A7A5E7AF77443CCAD76E8E4F /* Pods-Sildish MacOSTests-acknowledgements.plist */,
+				80EB70B7572CD19EC876F99FBB9DCE2A /* Pods-Sildish MacOSTests-dummy.m */,
+				B7BE13B61A365C4A857C5590E2F2073C /* Pods-Sildish MacOSTests-Info.plist */,
+				41B9D85D5700D96E9CF4BD6A2C9CCF7C /* Pods-Sildish MacOSTests-umbrella.h */,
+				584924FA11F699AB62CB7FE35F0C25C9 /* Pods-Sildish MacOSTests.debug.xcconfig */,
+				5347A41804BBEA43CB98D91DB9101547 /* Pods-Sildish MacOSTests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Sildish MacOSTests";
+			path = "Target Support Files/Pods-Sildish MacOSTests";
 			sourceTree = "<group>";
 		};
-		20C24BE28A8BC1948F8DA34D666339A7 /* Pods */ = {
+		0F3483FE7E722923FAD9839125348872 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				51CA0CEB90A680AD71900D5AB951F5AE /* Introspect */,
+				B18D71BBD2C87EC300EE07FAACE88C0A /* Introspect-iOS.modulemap */,
+				EA94D66F2C8524B57BF1C3DB8DC663E2 /* Introspect-iOS-dummy.m */,
+				14565ACBB15C0D87FE22AF155F2A5D8A /* Introspect-iOS-Info.plist */,
+				D4D457A901E12F7964A0A977E2BD31A6 /* Introspect-iOS-prefix.pch */,
+				5BBDC0558EDF9B922DB3A5611C0E6081 /* Introspect-iOS-umbrella.h */,
+				FFEC17DD753A695953F9F469C740231C /* Introspect-iOS.debug.xcconfig */,
+				9AD9E594736CDB4E6772994CBD77EEBB /* Introspect-iOS.release.xcconfig */,
+				2EB96B978E05FFD5DAE506E28936E02C /* Introspect-macOS.modulemap */,
+				F024E5F619C8A10AEC31C0A525BD1DCC /* Introspect-macOS-dummy.m */,
+				82AA7AA3681726A03534014BA9245BD4 /* Introspect-macOS-Info.plist */,
+				D692DFB7245B58FFB0B8FC11D0465695 /* Introspect-macOS-prefix.pch */,
+				B15DCA90B8F0DBC1E5BCA4CCF9B6E395 /* Introspect-macOS-umbrella.h */,
+				FC70929EAF01F7C8C209DCD1BED0D5BD /* Introspect-macOS.debug.xcconfig */,
+				BE4BFBF3611FD9CBE84DD71884C1E398 /* Introspect-macOS.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/Introspect-iOS";
 			sourceTree = "<group>";
 		};
-		26EF015356CA5BF77CBAE5181928907B /* Products */ = {
+		153D0A889AAA2B7268B74D1B8B383B8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0A70003FD5E49B30CA83DAAFE03116B /* Introspect.framework */,
+				C461480F642B09F71CC15F6FE359D988 /* Introspect.framework */,
+				49DB130127D90948B972148C063B8F89 /* Introspect.framework */,
 				6846173765F35FFB8CCBCA5C943895A4 /* Pods_sildish.framework */,
+				C3166D859DC822258083CF9E2999AAA5 /* Pods_Sildish_MacOS.framework */,
+				219213AE35EEAECC93A6F906CE09757B /* Pods_Sildish_MacOS_Sildish_MacOSUITests.framework */,
+				F2E1BFFD62C00BCE1D0B09E88C8B847E /* Pods_Sildish_MacOSTests.framework */,
 				3CC5B3F41DE28BDF480B6E45125D0028 /* Pods_sildish_sildishUITests.framework */,
 				3B8909E359214830525C912BA6566117 /* Pods_sildishTests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		51CA0CEB90A680AD71900D5AB951F5AE /* Introspect */ = {
+		1EA3D3B0EC3BF8EB14D45F7B973D8AC9 /* Pods-sildish */ = {
 			isa = PBXGroup;
 			children = (
-				1FEB0B7659B3CBF3514D1FC9567D4F80 /* AppKitIntrospectionView.swift */,
-				EE9F97B7DBE7B5E51378241115EFD843 /* Introspect.swift */,
-				2FD39E502C826E5A7C5BAF30974FAEBB /* UIKitIntrospectionView.swift */,
-				8642AA28CFA4B0B137E3325D9FC24B36 /* UIKitIntrospectionViewController.swift */,
-				6519D1DDA6EB4B5EE3D38A3A0A7649DC /* ViewExtensions.swift */,
-				E74A7A19A59A269AF211D6D7D445E878 /* Support Files */,
+				B52EA3F05F1E8C3204D93F638A6FAD62 /* Pods-sildish.modulemap */,
+				6783B3F7BDFD66C7C7DD4E1E48DD28B7 /* Pods-sildish-acknowledgements.markdown */,
+				11DD541BD1EF2DB878C6378E14D60298 /* Pods-sildish-acknowledgements.plist */,
+				B842791ADAB47549057741B89913BC8D /* Pods-sildish-dummy.m */,
+				05B5EEA0F3BC491E03632649635BA321 /* Pods-sildish-frameworks.sh */,
+				805E897C119C516CED78052387ED0FF1 /* Pods-sildish-Info.plist */,
+				EE70A726DA1C2667C1F9BABF91E7F287 /* Pods-sildish-umbrella.h */,
+				61803044013D06698774832F1CA2EBF4 /* Pods-sildish.debug.xcconfig */,
+				5C620735ADEA107EA5E124AF5D94D901 /* Pods-sildish.release.xcconfig */,
 			);
-			name = Introspect;
-			path = Introspect;
+			name = "Pods-sildish";
+			path = "Target Support Files/Pods-sildish";
 			sourceTree = "<group>";
 		};
-		9B14AEDE4395D08E7B49012246497CA0 /* Pods-sildish-sildishUITests */ = {
+		20C24BE28A8BC1948F8DA34D666339A7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2469B9954DFD6DFF49C6C3BDA116C7D7 /* Pods-sildish-sildishUITests.modulemap */,
-				698161172D92BD9955D77C9C14A117AC /* Pods-sildish-sildishUITests-acknowledgements.markdown */,
-				2D5731D2F1971963EC7CAADC23D18A6C /* Pods-sildish-sildishUITests-acknowledgements.plist */,
-				0E3DC16D37025F69A4BC10B2794D8C75 /* Pods-sildish-sildishUITests-dummy.m */,
-				9B9D78F7523137929D2A7F37F39F3BD1 /* Pods-sildish-sildishUITests-frameworks.sh */,
-				0B196AFE2ABFBCCB2351722E505ADC40 /* Pods-sildish-sildishUITests-Info.plist */,
-				9065257947EF058B94C6E8809D641E3C /* Pods-sildish-sildishUITests-umbrella.h */,
-				B34741DF9F4146A037C115B50209B9D2 /* Pods-sildish-sildishUITests.debug.xcconfig */,
-				D017F6EC58744CED78D84780A95166E1 /* Pods-sildish-sildishUITests.release.xcconfig */,
+				BB96A575A88861D8F7C9CBEE6CCADB37 /* Introspect */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F8A24B87B4D62BA127BA8D3FE734D3E /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				30E0833F774141EB04DC79D0F4664C87 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A04419A5AE537C90597A7C474BBB87C9 /* iOS */,
+				3F8A24B87B4D62BA127BA8D3FE734D3E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74C128FB28AA208914913387D0D65255 /* Pods-sildish-sildishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D5EA69E0C9B96390232E131F71C5D2 /* Pods-sildish-sildishUITests.modulemap */,
+				C12450C7EE46974D93E6940093051CCA /* Pods-sildish-sildishUITests-acknowledgements.markdown */,
+				44FD982E937F0DB6B2E37BC87A67EA57 /* Pods-sildish-sildishUITests-acknowledgements.plist */,
+				CA242C9DE7A65FFD3420ED14FEA2C554 /* Pods-sildish-sildishUITests-dummy.m */,
+				31B14EC99B635546ABB4B703B7DB90D0 /* Pods-sildish-sildishUITests-frameworks.sh */,
+				6A481AD91AEBF1BBA5AF6086037A96D3 /* Pods-sildish-sildishUITests-Info.plist */,
+				59DFB39F3B52E16EAD4506C4E420AFC4 /* Pods-sildish-sildishUITests-umbrella.h */,
+				0128B8204159042B850B29A00C855260 /* Pods-sildish-sildishUITests.debug.xcconfig */,
+				2004A921928AB078CED7188976E27837 /* Pods-sildish-sildishUITests.release.xcconfig */,
 			);
 			name = "Pods-sildish-sildishUITests";
 			path = "Target Support Files/Pods-sildish-sildishUITests";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		87D5CCC0219A59445A7A96B8BD76A170 /* Pods-Sildish MacOS-Sildish MacOSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				810D40038AB56F978EE4623A46137AB4 /* Pods-Sildish MacOS-Sildish MacOSUITests.modulemap */,
+				71BA1BE295DF6A8D158888F6E70EBD96 /* Pods-Sildish MacOS-Sildish MacOSUITests-acknowledgements.markdown */,
+				E77B3EB6CFBAE74E86A07CE940469E94 /* Pods-Sildish MacOS-Sildish MacOSUITests-acknowledgements.plist */,
+				76FE23FCB5F6C1B2B165D62A538D0CA3 /* Pods-Sildish MacOS-Sildish MacOSUITests-dummy.m */,
+				2EBC9F08638A68003FF3FA2B0404335B /* Pods-Sildish MacOS-Sildish MacOSUITests-frameworks.sh */,
+				772FE2EB959BDB9A52647087C2DDB5B2 /* Pods-Sildish MacOS-Sildish MacOSUITests-Info.plist */,
+				A131B1C7E7EC5650FDA538522BDFCB8B /* Pods-Sildish MacOS-Sildish MacOSUITests-umbrella.h */,
+				80FA21AB1772C564D5A6A4846B011D15 /* Pods-Sildish MacOS-Sildish MacOSUITests.debug.xcconfig */,
+				D726A814A07C48DADF982696010BA174 /* Pods-Sildish MacOS-Sildish MacOSUITests.release.xcconfig */,
+			);
+			name = "Pods-Sildish MacOS-Sildish MacOSUITests";
+			path = "Target Support Files/Pods-Sildish MacOS-Sildish MacOSUITests";
+			sourceTree = "<group>";
+		};
+		A04419A5AE537C90597A7C474BBB87C9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CAF078200D3CDAD0F3FB03ED9391A7F0 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C41452D93B2C854440A5A07B5974B2CF /* Pods-sildish */ = {
+		AD117FE98BF625D6B711F3765F06E385 /* Pods-Sildish MacOS */ = {
 			isa = PBXGroup;
 			children = (
-				BCCEA317758706C8EFE21530D31AC3E0 /* Pods-sildish.modulemap */,
-				E28CC3C0495C329F8D26BF59D1517BB3 /* Pods-sildish-acknowledgements.markdown */,
-				2CF50E6422354DAD70282F392BD55F39 /* Pods-sildish-acknowledgements.plist */,
-				E3522BA77EDB213AF41BF5BF58435E01 /* Pods-sildish-dummy.m */,
-				747EF85C5685E661D5410FA2FE5D49C8 /* Pods-sildish-frameworks.sh */,
-				0B22AFC776813ED1B826FCC1B5643BB5 /* Pods-sildish-Info.plist */,
-				30770AB171A019541027EB4C0D3591FA /* Pods-sildish-umbrella.h */,
-				7CF716AA694C64847CE385F4FB75F3EB /* Pods-sildish.debug.xcconfig */,
-				BE7C428CEA9E417E4BC3C07D811169F7 /* Pods-sildish.release.xcconfig */,
+				E4C34125E524201F013581857FA87DC8 /* Pods-Sildish MacOS.modulemap */,
+				86B6E843FAC7954701B2EF88FD5A5E53 /* Pods-Sildish MacOS-acknowledgements.markdown */,
+				4113F49E37DAF90C55DD3F69D12A0D86 /* Pods-Sildish MacOS-acknowledgements.plist */,
+				3E71E7D69139D33DA39F3652FFC826D5 /* Pods-Sildish MacOS-dummy.m */,
+				DFBBBD9067F51E0C30BCAA82DF7E84D4 /* Pods-Sildish MacOS-frameworks.sh */,
+				637799B6F33A157F1E0E4ABD4DB33B26 /* Pods-Sildish MacOS-Info.plist */,
+				DBFC267FAF1D0170BD6279E54BBFA92E /* Pods-Sildish MacOS-umbrella.h */,
+				2B3D164CD957F599B9EAB34888D79CF7 /* Pods-Sildish MacOS.debug.xcconfig */,
+				D36B683EBBE5EF12AB41913C0F3850BC /* Pods-Sildish MacOS.release.xcconfig */,
 			);
-			name = "Pods-sildish";
-			path = "Target Support Files/Pods-sildish";
+			name = "Pods-Sildish MacOS";
+			path = "Target Support Files/Pods-Sildish MacOS";
+			sourceTree = "<group>";
+		};
+		BB96A575A88861D8F7C9CBEE6CCADB37 /* Introspect */ = {
+			isa = PBXGroup;
+			children = (
+				AC1BAB817928C95E0DE443616EE44486 /* AppKitIntrospectionView.swift */,
+				1436A5D14091E24B0D7FD16333C6FB8F /* Introspect.swift */,
+				360DB45968907362862BB5048E290B1A /* UIKitIntrospectionView.swift */,
+				C5F499407CB8FDF8FFE599B15279856E /* UIKitIntrospectionViewController.swift */,
+				07CE90E0D77214780DF36A56279E1D15 /* ViewExtensions.swift */,
+				0F3483FE7E722923FAD9839125348872 /* Support Files */,
+			);
+			path = Introspect;
+			sourceTree = "<group>";
+		};
+		CA1755A6BCBD559A97B7DFA8AD85B196 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EA3D3B0EC3BF8EB14D45F7B973D8AC9 /* Pods-sildish */,
+				AD117FE98BF625D6B711F3765F06E385 /* Pods-Sildish MacOS */,
+				87D5CCC0219A59445A7A96B8BD76A170 /* Pods-Sildish MacOS-Sildish MacOSUITests */,
+				09B2D658523465F6C6E42F5940362660 /* Pods-Sildish MacOSTests */,
+				74C128FB28AA208914913387D0D65255 /* Pods-sildish-sildishUITests */,
+				F7373C72B70465C068DC08DA06467ECE /* Pods-sildishTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */,
 				20C24BE28A8BC1948F8DA34D666339A7 /* Pods */,
-				26EF015356CA5BF77CBAE5181928907B /* Products */,
-				1A3DEA1D54F023A0B7026F81DD5DA4D6 /* Targets Support Files */,
+				153D0A889AAA2B7268B74D1B8B383B8B /* Products */,
+				CA1755A6BCBD559A97B7DFA8AD85B196 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		F7373C72B70465C068DC08DA06467ECE /* Pods-sildishTests */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E74A7A19A59A269AF211D6D7D445E878 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6935A6B76A1F3ACA7781AE41385A149 /* Introspect.modulemap */,
-				A7133B45DB27B49E3F6A06E50B650D08 /* Introspect-dummy.m */,
-				C16A57B7BAC12B839B47B64EA86CB745 /* Introspect-Info.plist */,
-				3DF18865B218BCE5D62D0C436F575AFE /* Introspect-prefix.pch */,
-				1B6C185AFAF683A8F8152324DD89EEDF /* Introspect-umbrella.h */,
-				D1119A951EC43052081C7A9A0544F754 /* Introspect.debug.xcconfig */,
-				7FA8350B21394CC67B4C811628A647AB /* Introspect.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Introspect";
-			sourceTree = "<group>";
-		};
-		E81E8AD050195A5AE69DF963174C80C1 /* Pods-sildishTests */ = {
-			isa = PBXGroup;
-			children = (
-				00D58A0724421A594B99B814A9126D8E /* Pods-sildishTests.modulemap */,
-				2E2F1B5E834E69E109447620BDAF58ED /* Pods-sildishTests-acknowledgements.markdown */,
-				2BDACD1B99D6449959AC71DB8A67619A /* Pods-sildishTests-acknowledgements.plist */,
-				ADDAC704EDD6FC8BB34E70D05828A639 /* Pods-sildishTests-dummy.m */,
-				75DBF0240AED40A74BC291E2F4111BDE /* Pods-sildishTests-Info.plist */,
-				6F39284B5EC167AF2F54734C1CC5F0F9 /* Pods-sildishTests-umbrella.h */,
-				1A73E3BD12498F27353DA831E4490BDC /* Pods-sildishTests.debug.xcconfig */,
-				6378BECF4EA61D8B21153A3A0D4E4181 /* Pods-sildishTests.release.xcconfig */,
+				5D297B249249960607EC36172649192B /* Pods-sildishTests.modulemap */,
+				CD933F602E0B3EA98C2C65820AB02D28 /* Pods-sildishTests-acknowledgements.markdown */,
+				98BA95EB73CB4225E3796BC096DAC3A2 /* Pods-sildishTests-acknowledgements.plist */,
+				23B0823517689CF3D8FA23F4A2FD87EC /* Pods-sildishTests-dummy.m */,
+				26E39FCD3172BCB0DA2859C259F39950 /* Pods-sildishTests-Info.plist */,
+				B5EC495BB47F939CA12C5C2B8691B4AF /* Pods-sildishTests-umbrella.h */,
+				6964B7EB3C6B12C8DF13FA46ABCBA7A5 /* Pods-sildishTests.debug.xcconfig */,
+				3FC86A1111592BFF328E8C81C2E4DECC /* Pods-sildishTests.release.xcconfig */,
 			);
 			name = "Pods-sildishTests";
 			path = "Target Support Files/Pods-sildishTests";
@@ -271,11 +451,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		49533BBC2A63E164A519D9473A4EF4B3 /* Headers */ = {
+		0F2AB665E1BCB858D6ED98B5626590DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5F350C504EB9D878FC47814EB03380D /* Pods-sildish-umbrella.h in Headers */,
+				CCD668F8E3DB4CEB388C19DDE3B520CE /* Pods-sildish-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB183B887041B6BE5E5B2619B285EE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69EFD7AD6E33C85126B3690A1DEEDE0 /* Pods-Sildish MacOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497237A11EDA80A0D99D59F4916137F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FC68E5976CF93B0BA48F01D84F8F04 /* Introspect-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5D268D2B0910FD03797CAE958118BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DAFE2252281ADFFAB11983320A238C /* Pods-sildish-sildishUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,25 +491,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FB7F4381DD77B7A03D63B51CFD1D58B /* Headers */ = {
+		829AECED7763A94C0633D221925C980F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E0E84066D696FA0B37DFA0210BDFCC /* Pods-sildish-sildishUITests-umbrella.h in Headers */,
+				B474412FD52E8731ADA7501000FF95CF /* Pods-Sildish MacOS-Sildish MacOSUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4A87CCF965CA6A18F5C4D219FBD897B /* Headers */ = {
+		ADDBCC2CC108672B489D92E542330B7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBBB3C3152D4C6E2F661C3E5E813147C /* Introspect-umbrella.h in Headers */,
+				70295AB81BCCBFFED439E743DDC424C3 /* Introspect-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B046A2340D71BFFA1A7B19F7F5D12557 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B646074F17202FF9464EF248FDC511 /* Pods-Sildish MacOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		12A9D4FFCF791FC1555F5D39B391EB33 /* Introspect-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C1E37F0D7D463673E615298A61A94A /* Build configuration list for PBXNativeTarget "Introspect-macOS" */;
+			buildPhases = (
+				ADDBCC2CC108672B489D92E542330B7C /* Headers */,
+				9891CC1BFA41449102981997B5635938 /* Sources */,
+				BBD0C898E12033216EDF03DB3862DA17 /* Frameworks */,
+				FCD0F0E847B949FBE10439E9D3A9F9AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Introspect-macOS";
+			productName = "Introspect-macOS";
+			productReference = C461480F642B09F71CC15F6FE359D988 /* Introspect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2CD967017FD20AB382B529A1256D54C1 /* Introspect-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6FF084F52A0D9A1084814AE8BE5D514 /* Build configuration list for PBXNativeTarget "Introspect-iOS" */;
+			buildPhases = (
+				497237A11EDA80A0D99D59F4916137F9 /* Headers */,
+				563896E93718904E1609A68CDD3F4FA1 /* Sources */,
+				A9A26E8444D6FE9697310383B6FC62FC /* Frameworks */,
+				3B7C715944BBE2E3B62B500C2058350E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Introspect-iOS";
+			productName = "Introspect-iOS";
+			productReference = 49DB130127D90948B972148C063B8F89 /* Introspect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		4D5BDBA98E30894E61656EAAC5225D1A /* Pods-sildishTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11386AA0051F466054256F477AD15AE3 /* Build configuration list for PBXNativeTarget "Pods-sildishTests" */;
@@ -318,44 +566,83 @@
 			buildRules = (
 			);
 			dependencies = (
-				A2A81C49C3890B416E8B5289F007FA73 /* PBXTargetDependency */,
+				22D7F3ED01CD253470CC135FA7FE1F15 /* PBXTargetDependency */,
 			);
 			name = "Pods-sildishTests";
 			productName = "Pods-sildishTests";
 			productReference = 3B8909E359214830525C912BA6566117 /* Pods_sildishTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		97E3685499568DCCBA6C15905F707BDC /* Introspect */ = {
+		5D2A6CC6436A9DD43AA5893AE302204F /* Pods-Sildish MacOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16B9305882DF4E5359A9C88CFB34D3D7 /* Build configuration list for PBXNativeTarget "Introspect" */;
+			buildConfigurationList = FD95FDC72FEE2F3C718024ED489F175A /* Build configuration list for PBXNativeTarget "Pods-Sildish MacOSTests" */;
 			buildPhases = (
-				C4A87CCF965CA6A18F5C4D219FBD897B /* Headers */,
-				EDC774157FF0F74DA662C65D8D058FEF /* Sources */,
-				31FA779C2E2C1439F386AC99AEC8D9FC /* Frameworks */,
-				0CF6844CDBF49121C460836A8676E396 /* Resources */,
+				0FB183B887041B6BE5E5B2619B285EE5 /* Headers */,
+				699303FCD35B55186D47417594A1F79B /* Sources */,
+				4A1F080D40928FBB5848F1558CA970FA /* Frameworks */,
+				C0D615AEB2739F0947F0A5EAA17F142F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5B4EBF45FE77CE6BC87F652948C1872C /* PBXTargetDependency */,
 			);
-			name = Introspect;
-			productName = Introspect;
-			productReference = D0A70003FD5E49B30CA83DAAFE03116B /* Introspect.framework */;
+			name = "Pods-Sildish MacOSTests";
+			productName = "Pods-Sildish MacOSTests";
+			productReference = F2E1BFFD62C00BCE1D0B09E88C8B847E /* Pods_Sildish_MacOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8694901FD224136208332DE031E6245F /* Pods-Sildish MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E00A4602A8418FB8A4E391FDB5FBAF /* Build configuration list for PBXNativeTarget "Pods-Sildish MacOS" */;
+			buildPhases = (
+				B046A2340D71BFFA1A7B19F7F5D12557 /* Headers */,
+				C1BC888B3E9136DAACCE880F2CDE1532 /* Sources */,
+				AF9E9CF1BD4586C97E84A1E258344D05 /* Frameworks */,
+				908AB02292A23A2AEA923A625C4E7CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90DD68DD20E8BCE8C6C6D3258634ECF /* PBXTargetDependency */,
+			);
+			name = "Pods-Sildish MacOS";
+			productName = "Pods-Sildish MacOS";
+			productReference = C3166D859DC822258083CF9E2999AAA5 /* Pods_Sildish_MacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF0C020174DAAB6B72FD56256E80C256 /* Pods-Sildish MacOS-Sildish MacOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367A0B63B430A5FC1663DFBA250204D5 /* Build configuration list for PBXNativeTarget "Pods-Sildish MacOS-Sildish MacOSUITests" */;
+			buildPhases = (
+				829AECED7763A94C0633D221925C980F /* Headers */,
+				FEE40A30E24538704C84FB4ADF26C472 /* Sources */,
+				96E6F5DCB787713C0DB681D375F529FA /* Frameworks */,
+				BFBA4B87326BDCB0727F24DC0C9DCEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3216F0347CBEA43C17659F684D7CA7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sildish MacOS-Sildish MacOSUITests";
+			productName = "Pods-Sildish MacOS-Sildish MacOSUITests";
+			productReference = 219213AE35EEAECC93A6F906CE09757B /* Pods_Sildish_MacOS_Sildish_MacOSUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E3D770CDFFEA479ADDC5D3B1C2262808 /* Pods-sildish */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 645DAF7FAFB5E4206C79EA1AD95E4115 /* Build configuration list for PBXNativeTarget "Pods-sildish" */;
+			buildConfigurationList = 4FB454FAE0168B33D89837658EC6962A /* Build configuration list for PBXNativeTarget "Pods-sildish" */;
 			buildPhases = (
-				49533BBC2A63E164A519D9473A4EF4B3 /* Headers */,
-				67425FFD16E99F0938913F532AE7E392 /* Sources */,
-				EB9B8939004B0ADC11C73FD23595658B /* Frameworks */,
-				2929554B2A95267E38767535F305E525 /* Resources */,
+				0F2AB665E1BCB858D6ED98B5626590DD /* Headers */,
+				A44EC649EFF98F54A315EBDAEB96DD03 /* Sources */,
+				44CB654051F7C87525518ED90491E623 /* Frameworks */,
+				A4CD382FE7EFAEADD2950DB6CF1200A7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FF2524FD0B3766A25277135AA098B8E8 /* PBXTargetDependency */,
+				E16A5003CCE0629E4FC30F11AA5D59F2 /* PBXTargetDependency */,
 			);
 			name = "Pods-sildish";
 			productName = "Pods-sildish";
@@ -364,17 +651,17 @@
 		};
 		FF64E1EED25A68AA371B5A604F687A3E /* Pods-sildish-sildishUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4E224A9E978D006B2154027D0651CD6 /* Build configuration list for PBXNativeTarget "Pods-sildish-sildishUITests" */;
+			buildConfigurationList = C105E7C0234ECBD08B1916BE4E599CC3 /* Build configuration list for PBXNativeTarget "Pods-sildish-sildishUITests" */;
 			buildPhases = (
-				7FB7F4381DD77B7A03D63B51CFD1D58B /* Headers */,
-				BB282611BDE4DB4F4E06ADD81B1149CE /* Sources */,
-				3B18470EEFAB8B8D8177320A9484B1D0 /* Frameworks */,
-				82595B67F1D3F5BAC621B85BB475441C /* Resources */,
+				4F5D268D2B0910FD03797CAE958118BD /* Headers */,
+				B1E3C828091FF39D1F4EF6A774749029 /* Sources */,
+				E9982D620BE8C876456B518347C77644 /* Frameworks */,
+				5F636AD127E83132175610F4D9C9B3A6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EAD94AE50DA5FCEE6A550D26264F4F22 /* PBXTargetDependency */,
+				15044EB1D74A96388C66F87BA1585723 /* PBXTargetDependency */,
 			);
 			name = "Pods-sildish-sildishUITests";
 			productName = "Pods-sildish-sildishUITests";
@@ -388,10 +675,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1160;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -399,12 +686,16 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 26EF015356CA5BF77CBAE5181928907B /* Products */;
+			productRefGroup = 153D0A889AAA2B7268B74D1B8B383B8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97E3685499568DCCBA6C15905F707BDC /* Introspect */,
+				2CD967017FD20AB382B529A1256D54C1 /* Introspect-iOS */,
+				12A9D4FFCF791FC1555F5D39B391EB33 /* Introspect-macOS */,
 				E3D770CDFFEA479ADDC5D3B1C2262808 /* Pods-sildish */,
+				8694901FD224136208332DE031E6245F /* Pods-Sildish MacOS */,
+				DF0C020174DAAB6B72FD56256E80C256 /* Pods-Sildish MacOS-Sildish MacOSUITests */,
+				5D2A6CC6436A9DD43AA5893AE302204F /* Pods-Sildish MacOSTests */,
 				FF64E1EED25A68AA371B5A604F687A3E /* Pods-sildish-sildishUITests */,
 				4D5BDBA98E30894E61656EAAC5225D1A /* Pods-sildishTests */,
 			);
@@ -412,13 +703,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0CF6844CDBF49121C460836A8676E396 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1AC39331A467BBFF2203871E588D3DE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,14 +710,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2929554B2A95267E38767535F305E525 /* Resources */ = {
+		3B7C715944BBE2E3B62B500C2058350E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82595B67F1D3F5BAC621B85BB475441C /* Resources */ = {
+		5F636AD127E83132175610F4D9C9B3A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908AB02292A23A2AEA923A625C4E7CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CD382FE7EFAEADD2950DB6CF1200A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBA4B87326BDCB0727F24DC0C9DCEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D615AEB2739F0947F0A5EAA17F142F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD0F0E847B949FBE10439E9D3A9F9AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,60 +770,151 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67425FFD16E99F0938913F532AE7E392 /* Sources */ = {
+		563896E93718904E1609A68CDD3F4FA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				887CFB1827660510FDD71526E52DD586 /* Pods-sildish-dummy.m in Sources */,
+				74F35C7B8BDAA86E9D76C0B36E5B5DE0 /* AppKitIntrospectionView.swift in Sources */,
+				DE6A3C312F18F5346A0EA6574A9BED22 /* Introspect-iOS-dummy.m in Sources */,
+				F67F8489EFDACDA640C8255147D71ECF /* Introspect.swift in Sources */,
+				06EEEBDFBCEC2C2EDB376BFB13BBD897 /* UIKitIntrospectionView.swift in Sources */,
+				4799D5F922E46C12A7D95B144E5B317C /* UIKitIntrospectionViewController.swift in Sources */,
+				883B9135A0FB875EB09EF000099041DF /* ViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB282611BDE4DB4F4E06ADD81B1149CE /* Sources */ = {
+		699303FCD35B55186D47417594A1F79B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC63B865E99036CACA36C86BB0753763 /* Pods-sildish-sildishUITests-dummy.m in Sources */,
+				FB5FDAB3C8ABFAFDED828BE28DE98E18 /* Pods-Sildish MacOSTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDC774157FF0F74DA662C65D8D058FEF /* Sources */ = {
+		9891CC1BFA41449102981997B5635938 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04516B10D23612F1EF169D07F5E5D412 /* AppKitIntrospectionView.swift in Sources */,
-				FEE53BB666EC19D440243E6ED59F33CC /* Introspect-dummy.m in Sources */,
-				26A76676C1314B46DF5F1F1313ABE2F4 /* Introspect.swift in Sources */,
-				A8B0DC12BE200007F9EB2D65531A84CA /* UIKitIntrospectionView.swift in Sources */,
-				D8DE7403B046571663D236C6905B4E52 /* UIKitIntrospectionViewController.swift in Sources */,
-				DE9FE1FE2E7B9C17B1FB97C6E613DFF2 /* ViewExtensions.swift in Sources */,
+				FDD2BA5FCE3B25D9527C995CFC82C460 /* AppKitIntrospectionView.swift in Sources */,
+				61075055D59B9AEFACCB9207CC6F1E6E /* Introspect-macOS-dummy.m in Sources */,
+				86A8863C9980E9A4CAD09604F396584A /* Introspect.swift in Sources */,
+				B1F8FAA2B1C8ADFEC3DC570F65F32CFB /* UIKitIntrospectionView.swift in Sources */,
+				8126CC65983E9206B9C6469A5A1BC01A /* UIKitIntrospectionViewController.swift in Sources */,
+				3260B39BD1536A1433568DFA84E89B88 /* ViewExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44EC649EFF98F54A315EBDAEB96DD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6D1B7FBCCFD1BDD2584E587D096C13 /* Pods-sildish-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E3C828091FF39D1F4EF6A774749029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B18368CE76575B9BF945DF4750459E8 /* Pods-sildish-sildishUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BC888B3E9136DAACCE880F2CDE1532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6F66152490B70A5D2578964FB1EDE6 /* Pods-Sildish MacOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE40A30E24538704C84FB4ADF26C472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF884983872F306C1BA8AEAC917887E /* Pods-Sildish MacOS-Sildish MacOSUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A2A81C49C3890B416E8B5289F007FA73 /* PBXTargetDependency */ = {
+		15044EB1D74A96388C66F87BA1585723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Introspect-iOS";
+			target = 2CD967017FD20AB382B529A1256D54C1 /* Introspect-iOS */;
+			targetProxy = 1D7817B89937E045E0FDDD6623D56C36 /* PBXContainerItemProxy */;
+		};
+		22D7F3ED01CD253470CC135FA7FE1F15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-sildish";
 			target = E3D770CDFFEA479ADDC5D3B1C2262808 /* Pods-sildish */;
-			targetProxy = 8A46907758B77252FF2675C93B8832BA /* PBXContainerItemProxy */;
+			targetProxy = D1CD7CC8EF9227BF949339C46EAD9A41 /* PBXContainerItemProxy */;
 		};
-		EAD94AE50DA5FCEE6A550D26264F4F22 /* PBXTargetDependency */ = {
+		5B4EBF45FE77CE6BC87F652948C1872C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Introspect;
-			target = 97E3685499568DCCBA6C15905F707BDC /* Introspect */;
-			targetProxy = B132E7A38BC4A3956047F58C99F6D2A9 /* PBXContainerItemProxy */;
+			name = "Pods-Sildish MacOS";
+			target = 8694901FD224136208332DE031E6245F /* Pods-Sildish MacOS */;
+			targetProxy = 41C9AAA087D485BA7058144DB638660C /* PBXContainerItemProxy */;
 		};
-		FF2524FD0B3766A25277135AA098B8E8 /* PBXTargetDependency */ = {
+		B90DD68DD20E8BCE8C6C6D3258634ECF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Introspect;
-			target = 97E3685499568DCCBA6C15905F707BDC /* Introspect */;
-			targetProxy = 52E2AC18CADE579F444F24F660D3F1C1 /* PBXContainerItemProxy */;
+			name = "Introspect-macOS";
+			target = 12A9D4FFCF791FC1555F5D39B391EB33 /* Introspect-macOS */;
+			targetProxy = 69CA5BD15C4E8DD97474EF5BCACFFCD7 /* PBXContainerItemProxy */;
+		};
+		BA3216F0347CBEA43C17659F684D7CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Introspect-macOS";
+			target = 12A9D4FFCF791FC1555F5D39B391EB33 /* Introspect-macOS */;
+			targetProxy = DAE22A50F233411DADA89F7E19AAD989 /* PBXContainerItemProxy */;
+		};
+		E16A5003CCE0629E4FC30F11AA5D59F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Introspect-iOS";
+			target = 2CD967017FD20AB382B529A1256D54C1 /* Introspect-iOS */;
+			targetProxy = 5D0344C2F8774BBD9820C479D2DEA8CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
+		028E9178027EF91C725D9D0B54893D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFEC17DD753A695953F9F469C740231C /* Introspect-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Introspect-iOS/Introspect-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Introspect-iOS/Introspect-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Introspect-iOS/Introspect-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Introspect;
+				PRODUCT_NAME = Introspect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C3A0E6837A9574E09994A476B28BA22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -556,6 +966,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -568,9 +979,46 @@
 			};
 			name = Debug;
 		};
-		2B202476C073D6979C6A00D49AB80A60 /* Debug */ = {
+		16BB89EC44D7C3D2F35F9D62B5F1D4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CF716AA694C64847CE385F4FB75F3EB /* Pods-sildish.debug.xcconfig */;
+			baseConfigurationReference = BE4BFBF3611FD9CBE84DD71884C1E398 /* Introspect-macOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Introspect-macOS/Introspect-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Introspect-macOS/Introspect-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Introspect-macOS/Introspect-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Introspect;
+				PRODUCT_NAME = Introspect;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		253C43C7F6AEBFDEA9FB5D157BF36460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3D164CD957F599B9EAB34888D79CF7 /* Pods-Sildish MacOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -578,37 +1026,77 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-sildish/Pods-sildish-Info.plist";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sildish MacOS/Pods-Sildish MacOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sildish/Pods-sildish.modulemap";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sildish MacOS/Pods-Sildish MacOS.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2FC2A472005864148BED24D612192E19 /* Release */ = {
+		2904E922E68E1BCB1323273A8639DFFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D017F6EC58744CED78D84780A95166E1 /* Pods-sildish-sildishUITests.release.xcconfig */;
+			baseConfigurationReference = 584924FA11F699AB62CB7FE35F0C25C9 /* Pods-Sildish MacOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sildish MacOSTests/Pods-Sildish MacOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sildish MacOSTests/Pods-Sildish MacOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48AAC38FF9AAF65959FADA9AE91946D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2004A921928AB078CED7188976E27837 /* Pods-sildish-sildishUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -645,9 +1133,9 @@
 			};
 			name = Release;
 		};
-		378553DF6E4A6AB14B13790AEDE38718 /* Debug */ = {
+		5988ABDA95128220DB0441AACA040B78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B34741DF9F4146A037C115B50209B9D2 /* Pods-sildish-sildishUITests.debug.xcconfig */;
+			baseConfigurationReference = 80FA21AB1772C564D5A6A4846B011D15 /* Pods-Sildish MacOS-Sildish MacOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -655,39 +1143,117 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests-Info.plist";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sildish MacOS-Sildish MacOSUITests/Pods-Sildish MacOS-Sildish MacOSUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests.modulemap";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sildish MacOS-Sildish MacOSUITests/Pods-Sildish MacOS-Sildish MacOSUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		823173B6AE8AE4725E9341948767DB25 /* Release */ = {
+		6CC0FB0C201F1566A6E5CC1DF04461B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE7C428CEA9E417E4BC3C07D811169F7 /* Pods-sildish.release.xcconfig */;
+			baseConfigurationReference = D726A814A07C48DADF982696010BA174 /* Pods-Sildish MacOS-Sildish MacOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sildish MacOS-Sildish MacOSUITests/Pods-Sildish MacOS-Sildish MacOSUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sildish MacOS-Sildish MacOSUITests/Pods-Sildish MacOS-Sildish MacOSUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74A79DE7880C887181229948262F82E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5347A41804BBEA43CB98D91DB9101547 /* Pods-Sildish MacOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sildish MacOSTests/Pods-Sildish MacOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sildish MacOSTests/Pods-Sildish MacOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C18BB912BEC86AD6F9699E7FBFCE281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD9E594736CDB4E6772994CBD77EEBB /* Introspect-iOS.release.xcconfig */;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -698,23 +1264,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-sildish/Pods-sildish-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Introspect-iOS/Introspect-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Introspect-iOS/Introspect-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sildish/Pods-sildish.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Introspect-iOS/Introspect-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Introspect;
+				PRODUCT_NAME = Introspect;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -722,7 +1287,83 @@
 			};
 			name = Release;
 		};
-		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
+		9E55B070A8545F3D0C2563F94F2AE5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36B683EBBE5EF12AB41913C0F3850BC /* Pods-Sildish MacOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sildish MacOS/Pods-Sildish MacOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sildish MacOS/Pods-Sildish MacOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B231313CADC4A8CAB203166F728B2628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC70929EAF01F7C8C209DCD1BED0D5BD /* Introspect-macOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Introspect-macOS/Introspect-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Introspect-macOS/Introspect-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Introspect-macOS/Introspect-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Introspect;
+				PRODUCT_NAME = Introspect;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9971F7B9C665AAD34E10930168DAE8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -771,6 +1412,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -782,82 +1424,9 @@
 			};
 			name = Release;
 		};
-		95FC1123250AE77E404DD57C3E1F5300 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FA8350B21394CC67B4C811628A647AB /* Introspect.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Introspect/Introspect-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Introspect/Introspect-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Introspect/Introspect.modulemap";
-				PRODUCT_MODULE_NAME = Introspect;
-				PRODUCT_NAME = Introspect;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9F1CEB789C4DA89392A2041E6D30CA68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1119A951EC43052081C7A9A0544F754 /* Introspect.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Introspect/Introspect-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Introspect/Introspect-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Introspect/Introspect.modulemap";
-				PRODUCT_MODULE_NAME = Introspect;
-				PRODUCT_NAME = Introspect;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C04A38794D23B18CEAFFF28D9C79148E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6378BECF4EA61D8B21153A3A0D4E4181 /* Pods-sildishTests.release.xcconfig */;
+			baseConfigurationReference = 3FC86A1111592BFF328E8C81C2E4DECC /* Pods-sildishTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -894,9 +1463,124 @@
 			};
 			name = Release;
 		};
+		C35C092653151F20AB6C93B09DCD989A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C620735ADEA107EA5E124AF5D94D901 /* Pods-sildish.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sildish/Pods-sildish-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sildish/Pods-sildish.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C573224012BEA988854143001797DA23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0128B8204159042B850B29A00C855260 /* Pods-sildish-sildishUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sildish-sildishUITests/Pods-sildish-sildishUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D36A90E28192AB06A976A494247EF0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61803044013D06698774832F1CA2EBF4 /* Pods-sildish.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sildish/Pods-sildish-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sildish/Pods-sildish.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F7B4CFC877E7221F416263C72C3247C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A73E3BD12498F27353DA831E4490BDC /* Pods-sildishTests.debug.xcconfig */;
+			baseConfigurationReference = 6964B7EB3C6B12C8DF13FA46ABCBA7A5 /* Pods-sildishTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -944,11 +1628,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16B9305882DF4E5359A9C88CFB34D3D7 /* Build configuration list for PBXNativeTarget "Introspect" */ = {
+		28E00A4602A8418FB8A4E391FDB5FBAF /* Build configuration list for PBXNativeTarget "Pods-Sildish MacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F1CEB789C4DA89392A2041E6D30CA68 /* Debug */,
-				95FC1123250AE77E404DD57C3E1F5300 /* Release */,
+				253C43C7F6AEBFDEA9FB5D157BF36460 /* Debug */,
+				9E55B070A8545F3D0C2563F94F2AE5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367A0B63B430A5FC1663DFBA250204D5 /* Build configuration list for PBXNativeTarget "Pods-Sildish MacOS-Sildish MacOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5988ABDA95128220DB0441AACA040B78 /* Debug */,
+				6CC0FB0C201F1566A6E5CC1DF04461B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -956,26 +1649,53 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
-				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
+				0C3A0E6837A9574E09994A476B28BA22 /* Debug */,
+				B9971F7B9C665AAD34E10930168DAE8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		645DAF7FAFB5E4206C79EA1AD95E4115 /* Build configuration list for PBXNativeTarget "Pods-sildish" */ = {
+		4FB454FAE0168B33D89837658EC6962A /* Build configuration list for PBXNativeTarget "Pods-sildish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B202476C073D6979C6A00D49AB80A60 /* Debug */,
-				823173B6AE8AE4725E9341948767DB25 /* Release */,
+				D36A90E28192AB06A976A494247EF0BE /* Debug */,
+				C35C092653151F20AB6C93B09DCD989A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4E224A9E978D006B2154027D0651CD6 /* Build configuration list for PBXNativeTarget "Pods-sildish-sildishUITests" */ = {
+		C105E7C0234ECBD08B1916BE4E599CC3 /* Build configuration list for PBXNativeTarget "Pods-sildish-sildishUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				378553DF6E4A6AB14B13790AEDE38718 /* Debug */,
-				2FC2A472005864148BED24D612192E19 /* Release */,
+				C573224012BEA988854143001797DA23 /* Debug */,
+				48AAC38FF9AAF65959FADA9AE91946D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6FF084F52A0D9A1084814AE8BE5D514 /* Build configuration list for PBXNativeTarget "Introspect-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028E9178027EF91C725D9D0B54893D64 /* Debug */,
+				8C18BB912BEC86AD6F9699E7FBFCE281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C1E37F0D7D463673E615298A61A94A /* Build configuration list for PBXNativeTarget "Introspect-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B231313CADC4A8CAB203166F728B2628 /* Debug */,
+				16BB89EC44D7C3D2F35F9D62B5F1D4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD95FDC72FEE2F3C718024ED489F175A /* Build configuration list for PBXNativeTarget "Pods-Sildish MacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2904E922E68E1BCB1323273A8639DFFC /* Debug */,
+				74A79DE7880C887181229948262F82E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
