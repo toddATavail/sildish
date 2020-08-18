@@ -51,6 +51,7 @@ internal let romanToSildish =
 							default:
 								assert(false)
 						}
+						abort()
 					}
 			)
 		)
@@ -153,6 +154,7 @@ internal func transliterateToSildish <T: Sequence> (
 			default:
 				assert(false, "should be unreachable")
 		}
+		abort()
 	}
 }
 
@@ -294,10 +296,19 @@ func transliterateToSildish <T: Sequence> (_ seq: T) -> String
 							case .consonant =
 								romanToSildish[String([x, c])]?.graphemeSet
 						{
-							// The digraph is a nonredublicable consonant. We
-							// deal with reduplicable consonants in the next
-							// iteration of the loop, and each occurrence
-							// contributes toward the consonant count.
+							// The digraph is a nonredublicable consonant.
+							unclassified += [c]
+							if !advance()
+							{
+								break
+							}
+						}
+						if
+							c.isSildishConsonant,
+							case .reduplicableConsonant =
+								romanToSildish[String([x, c])]?.graphemeSet
+						{
+							// The digraph is a reduplicable consonant.
 							unclassified += [c]
 							if !advance()
 							{

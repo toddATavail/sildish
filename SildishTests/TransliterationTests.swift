@@ -249,7 +249,10 @@ class TransliterationTests: XCTestCase
 			"ama" : "\u{E043}\u{E201}\u{E003}",
 			"aga" : "\u{E043}\u{E21D}\u{E003}",
 			"agae" : "\u{E043}\u{E21D}\u{E009}",
-			
+
+			// Uncapitalized, leading vowel, reduplicated consonant.
+			"anna" : "\u{E043}\u{E507}\u{E003}",
+
 			// Uncapitalized, final consonant.
 			"yrhax" : "\u{E040}\u{E257}\u{E003}\u{E11C}\u{E326}",
 			"ibril" : "\u{E041}\u{E211}\u{E147}\u{E001}\u{E367}",
@@ -414,7 +417,6 @@ class TransliterationTests: XCTestCase
 					+ " "
 					+ "\u{EA00}\u{E126}\u{E003}\u{E147}\u{E003}"
 						+ "\u{E107}\u{E002}\u{E467}\u{E005}\u{E002}\u{E307}"
-
 		]
 		
 		exemplars.forEach { (roman, sildish) in
